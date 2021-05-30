@@ -14,7 +14,7 @@ Our work can predict combinations of objects and scenes and perform at the state
 
 ### 3.What are important parts of technique and methods?
 
-![model]](image/Explain Images with Multimodal Recurrent Neural Networks.jpg)
+![model](./img/Explain Images with Multimodal Recurrent Neural Networks.jpg) 
 
 The whole m-RNN architecture contains a language model part, an image part and a multimodal part. The language model part learns the dense feature embedding for each word in the dictionary and stores the semantic temporal context in recurrent layers. The image part contains a deep Convolutional Neural Network (CNN) which extracts image features. The multimodal part connects the language model and the deep CNN together by a one-layer representation.
 
