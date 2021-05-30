@@ -10,6 +10,8 @@ the LSTM did not suffer on very long sentences, despite the recent experience of
 
 ### 3.What are important parts of technique and methods?
 
+![model](./img/Sequence to Sequence Learning with Neural Networks.jpg) 
+
 method uses a multilayered Long Short-Term Memory (LSTM) to map the input sequence to a vector of a fixed dimensionality, and then another deep LSTM to decode the target sequence from the vector.
 
 we reversed the order of words in the source sentence but not the target sentences in the training and test set.

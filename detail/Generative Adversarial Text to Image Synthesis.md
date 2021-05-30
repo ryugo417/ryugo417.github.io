@@ -16,6 +16,8 @@ The main distinction of our work from the conditional GANs described above is th
 
 ### 3.What are important parts of technique and methods?
 
+![model](./img/Generative Adversarial Text to Image Synthesis.jpg) 
+
 The generator network is optimized to fool the adversarially-trained discriminator into predicting that synthetic images are real. By conditioning both generator and discriminator on side information , we can naturally model this phenomenon since the discriminator network acts as a “smart” adaptive loss function.
  
 We introduce a manifold interpolation regularizer for the GAN generator that significantly improves the quality of generated samples, including on held out zero shot categories on CUB.
