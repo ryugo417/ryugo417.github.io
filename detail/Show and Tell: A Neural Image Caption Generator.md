@@ -1,4 +1,4 @@
-## Generating Natural-Language Video Descriptions Using Text-Mined Knowledge
+## Show and Tell: A Neural Image Caption Generator
 
 ### 1.What is this paper about?
 
