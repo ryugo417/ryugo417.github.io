@@ -1,4 +1,4 @@
-## Generating Natural-Language Video Descriptions Using Text-Mined Knowledge
+## Generative Adversarial Text to Image Synthesis
 
 ### 1.What is this paper about?
 

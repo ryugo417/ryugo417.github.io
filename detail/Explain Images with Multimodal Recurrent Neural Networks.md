@@ -1,4 +1,4 @@
-## Generating Natural-Language Video Descriptions Using Text-Mined Knowledge
+## Explain Images with Multimodal Recurrent Neural Networks
 
 ### 1.What is this paper about?
 
