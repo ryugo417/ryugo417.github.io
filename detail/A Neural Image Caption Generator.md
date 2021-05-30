@@ -2,7 +2,7 @@
 
 ### 1.What is this paper about?
 
-Generative model based on a deep re- current architecture that combines recent advances in com- puter vision and machine translation and that can be used to generate natural sentences describing an image.
+Generative model based on a deep recurrent architecture that combines recent advances in computer vision and machine translation and that can be used to generate natural sentences describing an image.
 
 ### 2.What’s better than previous paper?
 
