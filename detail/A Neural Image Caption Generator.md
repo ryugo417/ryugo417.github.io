@@ -14,6 +14,8 @@ This paper propses replacing the encoder RNN by a deep convolution neural networ
 
 ### 3.What are important parts of technique and methods?
 
+![model](./img/A Neural Image Caption Generator.jpg) 
+
 Replacing the encoder RNN by a deep convolution neural network (CNN).
 
 ### 4.How did they verify it?
@@ -23,5 +25,8 @@ we verify to generate description given image and explore the robustness of our 
 
 
 ### 5.Is there a debate?
+
+### dateset
+![dataset](./img/A Neural Image Caption Generator-dataset.jpg) 
 
 
