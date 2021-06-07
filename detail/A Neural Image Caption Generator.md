@@ -2,7 +2,7 @@
 
 ### 1.What is this paper about?
 
-NIC
+NIC(Neural Image Caption)
 ↓detail
 An end-to-end neural network system that can automatically view an image and generate a reasonable description in plain English. 
 
@@ -11,7 +11,6 @@ An end-to-end neural network system that can automatically view an image and gen
 Most previous attempts have proposed to stitch together existing solutions of the above sub-problems, in order to go from an image to its description.In contrast, our work is a single joint model.
 
 
-This paper propses replacing the encoder RNN by a deep convolution neural network (CNN).
 
 ### 3.What are important parts of technique and methods?
 
