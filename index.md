@@ -6,4 +6,5 @@
 * [Sequence to Sequence Learning with Neural Networks](/detail/Sequence to Sequence Learning with Neural Networks.md)
 * [Generative Adversarial Text to Image Synthesis](/detail/Generative Adversarial Text to Image Synthesis.md)
 * [Show and Tell: A Neural Image Caption Generator](/detail/A Neural Image Caption Generator.md)
+* [Show, Edit and Tell: A Framework for Editing Image Captions](/detail/A Framework for Editing Image Captions.md)
 
