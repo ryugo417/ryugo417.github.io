@@ -2,7 +2,7 @@
 
 ### 1.What is this paper about?
 
-A model for editing image captions based on iterative adaptive refinement of an
+The model for editing image captions based on iterative adaptive refinement of an
 existing caption.
 
 
