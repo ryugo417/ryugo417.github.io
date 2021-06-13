@@ -2,7 +2,7 @@
 
 ### 1.What is this paper about?
 
-Model that generates natural-language descriptions for videos
+The model that generates natural-language descriptions for videos
 detail↓
 It combines the output of state-of-the-art object and activity detectors with “real-world” knowledge to select the most probable subject-verb-object triplet for describing a video.
 
