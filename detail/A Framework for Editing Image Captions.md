@@ -2,26 +2,15 @@
 
 ### 1.What is this paper about?
 
-<<<<<<< HEAD
-=======
 The model for editing image captions based on iterative adaptive refinement of an
 existing caption.
->>>>>>> f56f48d0fd04c9180dbee36cf6dda0966b775876
 
 
 ### 2.What’s better than previous paper?
 
-<<<<<<< HEAD
-
-
-### 3.What are important parts of technique and methods?
-
-
-=======
 Previous works focus on the model to generate image description.
 
-Our work focus on fixing details of existing captions, rather
-than generating new captions from scratch.
+Our work focus on fixing details of existing captions, rather than generating new captions from scratch.
 
 ### 3.What are important parts of technique and methods?
 
@@ -41,21 +30,15 @@ mechanism (SCMA)
 
 - DCNet
 An LSTM-based denoising auto-encoder that learns to denoise previous captions. 
->>>>>>> f56f48d0fd04c9180dbee36cf6dda0966b775876
+
 
 ### 4.How did they verify it?
 
 
-<<<<<<< HEAD
 
 ### 5.Is there a debate?
 
-
-=======
 We validate our proposed method on the popular MS COCO dataset.
 We show the performance of our model compared with the current state-other-art method.
 we adopt 4 different metrics: BLEU (1- to 4-grams), ROUGE-L, CIDEr-D, SPICE.
 
-### 5.Is there a debate?
-
->>>>>>> f56f48d0fd04c9180dbee36cf6dda0966b775876
