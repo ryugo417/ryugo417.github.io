@@ -8,4 +8,4 @@
 * [Show and Tell: A Neural Image Caption Generator](/detail/A Neural Image Caption Generator.md)
 * [Show, Edit and Tell: A Framework for Editing Image Captions](/detail/A Framework for Editing Image Captions.md)
 * [Large-scale Video Classification with Convolutional Neural Networks](/detail/Large-scale Video Classification with Convolutional Neural Networks.md)
-* [Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models](/detail/Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models.md)
+<!-- * [Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models](/detail/Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models.md) -->
