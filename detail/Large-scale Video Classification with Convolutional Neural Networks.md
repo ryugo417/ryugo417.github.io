@@ -12,9 +12,9 @@ About video classification with CNN.
 ### 2.What’s better than previous paper?
 
 Previous method involves three major stages: 
-First, local visual features that describe a region of the video are extracted. 
-Next, the features get combined into a fixed-sized video- level description. 
-Lastly, a classifier (such as an SVM) is trained on the resulting ”bag of words” representation to distinguish among the visual classes of interest.
+1. Local visual features that describe a region of the video are extracted. 
+2. The features get combined into a fixed-sized video- level description. 
+3. A classifier (such as an SVM) is trained on the resulting ”bag of words” representation to distinguish among the visual classes of interest.
 
 Our work is to evaluate Convolutional Neural Networks.
 It models that replace all threestages with a single neural network that is trained end to end from raw pixel values to classifier outputs.
