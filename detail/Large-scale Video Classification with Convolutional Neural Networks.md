@@ -40,7 +40,10 @@ It receives the center 89 × 89 region at the original resolution and processes 
 ### 4.How did they verify it?
 
 Sports-1M dataset, which consists of 1 million YouTube videos belonging to a taxonomy of 487 classes of sports
-2. By sepatrating two stream of prosessing, We observe a 2-4x increase in runtime performance of the network due to the reduced dimensionality of the input without sacrificing accuracy.
+
+By sepatrating two stream of prosessing, We observe a 2-4x increase in runtime performance of the network due to the reduced dimensionality of the input without sacrificing accuracy.
+
+This transfer learning experiments on UCF-101 suggest that the learned features are generic and generalize other video classification tasks. In particular, this paper achieved the highest transfer learning performance by retraining the top 3 layers of the network.
 
 
 ### 5.Is there a debate?
