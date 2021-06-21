@@ -15,3 +15,4 @@
 ### Wiki
 * [Linux command](/Wiki/linux_command.md)
 * [Stanford image-caption class](https://www.youtube.com/user/stanfordeng)
+* [Information Theory, Inference, and Learning Algorithms](https://youtu.be/BCiZc0n6COY)
