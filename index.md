@@ -9,6 +9,7 @@
 * [Show, Edit and Tell: A Framework for Editing Image Captions](/detail/papers/A Framework for Editing Image Captions.md)
 * [Large-scale Video Classification with Convolutional Neural Networks](/detail/papers/Large-scale Video Classification with Convolutional Neural Networks.md)
 <!-- * [Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models](/detail/Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models.md) -->
+* [Better Captioning with Sequence-Level Exploration](/detail/papers/Better Captioning with Sequence-Level Exploration.md)
 
 
 
