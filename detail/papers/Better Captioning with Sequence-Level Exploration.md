@@ -13,6 +13,12 @@ It guides the model to explore more plausible captions in the training. In this 
 
 ### 3.What are important parts of technique and methods?
 
+It shows that the diversity is a proxy mesurement of recall and  formularizes following to cover
+the recall side of the problem.
+
+![equation](../img/Better Captioning with Sequence-Level Exploration.jpg) 
+
+
 ### 4.How did they verify it?
 
 ### 5.Is there a debate?

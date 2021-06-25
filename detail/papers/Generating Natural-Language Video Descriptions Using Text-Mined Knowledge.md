@@ -15,7 +15,7 @@ We make extensive use of text-mined knowledge to select the best SVO triple and 
 
 ### 3.What are important parts of technique and methods?
 
-![model](./img/Generating Natural-Language Video Descriptions Using Text-Mined Knowledge.jpg) 
+![model](../img/Generating Natural-Language Video Descriptions Using Text-Mined Knowledge.jpg) 
 
 We improve these initial probability distributions over objects and activities by incorporating the likelihood of different activities occurring with particular subjects and objects using two different approaches.
 
