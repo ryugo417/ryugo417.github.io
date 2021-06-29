@@ -41,9 +41,9 @@ evaluate precision and recall
 > precision...CIDEr
 > recall...Div1, Div2, mBleu
 
-The first decoding strategy is to sample 5 captions from the model for each image (rs).
-The second decoding strategy is to beam search top 5 captions from the model for each image (bs).
+- The first decoding strategy is to sample 5 captions from the model for each image (rs).
+- The second decoding strategy is to beam search top 5 captions from the model for each image (bs).
 
-> SLL-SLE performs not only better on the precision side and but also better on the recall side under both random sampling and beam search decoding strategies. So its propose can generate diverse and high quality captions with sampling strategy.
+SLL-SLE performs not only better on the precision side and but also better on the recall side under both random sampling and beam search decoding strategies. So its propose can generate diverse and high quality captions with sampling strategy.
 
 ### 5.Is there a debate?
