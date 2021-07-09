@@ -13,7 +13,6 @@ Previous works mainly focus on generic images because they didn't have adequate 
 It address the knowledge gap by computing multi-head attention on the words in the article, along with faces and objects that are extracted from the image and the linguistic gap with transformer language model which use flexible byte-pair-encoding that can generate unseen words.
 
 
-
 ### 3.What are important parts of technique and methods?
 
 ![model](../img/Tran_Transform_and_Tell_Entity-Aware_News_Image_Captioning_CVPR_2020_paper1.png) 
