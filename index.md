@@ -11,6 +11,7 @@
 <!-- * [Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models](/detail/Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models.md) -->
 * [Better Captioning with Sequence-Level Exploration](/detail/papers/Better Captioning with Sequence-Level Exploration.md)
 * [Transform and Tell: Entity-Aware News Image Captioning](/detail/papers/Tran_Transform_and_Tell_Entity-Aware_News_Image_Captioning_CVPR_2020_paper.md)
+* [Context-Aware Group Captioning via Self-Attention and Contrastive Features](/detail/papers/Context-Aware Group Captioning via Self-Attention and Contrastive Features.md)
 
 
 
