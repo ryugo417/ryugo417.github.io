@@ -34,10 +34,6 @@ An LSTM-based denoising auto-encoder that learns to denoise previous captions.
 
 ### 4.How did they verify it?
 
-
-
-### 5.Is there a debate?
-
 We validate our proposed method on the popular MS COCO dataset.
 We show the performance of our model compared with the current state-other-art method.
 we adopt 4 different metrics: BLEU (1- to 4-grams), ROUGE-L, CIDEr-D, SPICE.
