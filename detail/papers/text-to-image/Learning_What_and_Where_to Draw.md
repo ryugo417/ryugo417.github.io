@@ -13,13 +13,13 @@ Previous one have so far only used simple conditioning variables such as a class
 The key is text- and location-controllable image synthesis.
 It has two ways.
 
-1. Bounding-box-conditional text-to-image model
+- Bounding-box-conditional text-to-image model
 
 This model is accomplished by controlling the position of the bounding box.
 
 ![model1](../../img/Learning What and Where to Draw1.jpg) 
 
-2. Keypoint-conditional text-to-image model
+- Keypoint-conditional text-to-image model
 
 This model is accomplished by providing the location keypoints.
 
@@ -30,15 +30,15 @@ This model is accomplished by providing the location keypoints.
 It is valid to generate images from text description by using Caltech-UCSD Birds (CUB) dataset of bird images and MPII Human Pose (MHP) datasets.
 
 It demondtrate three ways on CUB.
-1. It shows it can also control the size and aspect ratio of the bird by specifing via bounding box coordinates.
+- It shows it can also control the size and aspect ratio of the bird by specifing via bounding box coordinates.
 
 ![result1](../../img/Learning What and Where to Draw3.jpg) 
 
-2. It shows the case of text-conditional image generation with keypoints fixed to the ground-truth. So it can Control the bird’s position using keypoint coordinates.
+- It shows the case of text-conditional image generation with keypoints fixed to the ground-truth. So it can Control the bird’s position using keypoint coordinates.
 
 ![result2](../../img/Learning What and Where to Draw4.jpg) 
 
-3. It shows generating both bird keypoints and images from text alone.
+- It shows generating both bird keypoints and images from text alone.
 
 ![result3](../../img/Learning What and Where to Draw5.jpg) 
 
