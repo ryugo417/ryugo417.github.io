@@ -25,7 +25,7 @@ This paper show three　proposal.
 
     2. It can resolve the task in the following way.First it learn the difference between two groups of images and to capture their similarity. Second we can deduce discriminative representation by subtracting this similarity portion from the two features.
 
-    ![model](../../img/Context-Aware.jpg.jpg) 
+    ![model](../../img/Context-Aware.jpg) 
 
 ### 4.How did they verify it?
 
