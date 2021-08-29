@@ -4,7 +4,6 @@
 
 A multimodal Recurrent Neural Network (m-RNN) model for generating novel sentence descriptions to explain the content of images.
 
-detail↓
 The model consists of two sub-networks.
 - A deep recurrent neural network for sentences
 - A deep convolutional network for images
