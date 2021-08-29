@@ -20,7 +20,7 @@ Our work can predict combinations of objects and scenes and perform at the state
 
 ### 3.What are important parts of technique and methods?
 
-![model](../img/Explain Images with Multimodal Recurrent Neural Networks.jpg) 
+![model](../../img/Explain Images with Multimodal Recurrent Neural Networks.jpg) 
 
 The whole m-RNN have theree part.
 - A language model part

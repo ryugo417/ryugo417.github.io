@@ -10,7 +10,7 @@
 
 ### 3.What are important parts of technique and methods?
 
-![model](../img/.jpg) 
+![model](../../img/.jpg) 
 
 
 
