@@ -8,7 +8,29 @@ $ conda info -e
 ```
 $ conda create -n 環境名
 ```
+仮想環境のactivate
+```
+$ conda activate 環境名
+```
+仮想環境のdeactivate
+```
+$ conda deactivate
+```
 仮想環境の削除
 ```
 $ conda remove -n 環境名 --all
 ```
+
+
+### パスの指定
+
+passを表示
+```
+$ echo $(変数)
+```
+PATHを入力
+```
+$ export 変数=(../../../..)
+
+
+
