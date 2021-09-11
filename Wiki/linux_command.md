@@ -6,7 +6,7 @@ $ conda info -e
 ```
 仮想環境の作成
 ```
-$ conda create -n 環境名
+$ conda create -n 環境名 python=バージョン
 ```
 仮想環境のactivate
 ```
