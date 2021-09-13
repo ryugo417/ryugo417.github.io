@@ -1,6 +1,6 @@
 ## Paper
 
-### image-caption
+### Image-caption
 * [Generating Natural-Language Video Descriptions Using Text-Mined Knowledge](/detail/papers/image-caption/Generating_Natural-Language_Video_Descriptions_Using_Text-Mined_Knowledge.md)
 * [Explain Images with Multimodal Recurrent Neural Networks](/detail/papers/image-caption/Explain_Images_with_Multimodal_Recurrent_Neural_Networks.md)
 * [Sequence to Sequence Learning with Neural Networks](/detail/papers/image-caption/Sequence_to Sequence_Learning_with_Neural_Networks.md)
@@ -11,6 +11,9 @@
 * [Better Captioning with Sequence-Level Exploration](/detail/papers/image-caption/Better_Captioning_with_Sequence-Level_Exploration.md)
 * [Transform and Tell: Entity-Aware News Image Captioning](/detail/papers/image-caption/Tran_Transform_and_Tell_Entity-Aware_News_Image_Captioning_CVPR_2020_paper.md)
 * [Context-Aware Group Captioning via Self-Attention and Contrastive Features](/detail/papers/image-caption/Context-Aware_Group_Captioning_via_Self-Attention_and_Contrastive_Features.md)
+
+### Image Manipulation
+* [ManiGAN: Text-Guided Image Manipulation](detail/papers/image-manipulation/ManiGAN.md)
 
 ### Text to Image
 * [Generative Adversarial Text to Image Synthesis](/detail/papers/text-to-image/Generative_Adversarial_Text_to_Image_Synthesis.md)
