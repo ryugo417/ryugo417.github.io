@@ -1,6 +1,6 @@
 ## Paper
 
-### Image-caption
+### Image Caption
 * [Generating Natural-Language Video Descriptions Using Text-Mined Knowledge](/detail/papers/image-caption/Generating_Natural-Language_Video_Descriptions_Using_Text-Mined_Knowledge.md)
 * [Explain Images with Multimodal Recurrent Neural Networks](/detail/papers/image-caption/Explain_Images_with_Multimodal_Recurrent_Neural_Networks.md)
 * [Sequence to Sequence Learning with Neural Networks](/detail/papers/image-caption/Sequence_to Sequence_Learning_with_Neural_Networks.md)
