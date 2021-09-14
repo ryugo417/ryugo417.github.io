@@ -24,7 +24,7 @@ It models that replace all threestages with a single neural network that is trai
 
 ![model](../../img/Large-scale Video Classification with Convolutional Neural Networks1.jpg) 
 
-It shows explored approaches for fusing information over temporal dimension through the network.Red, green and blue boxes indicate convolutional, normalization and pool- ing layers respectively.
+It shows explored approaches for fusing information over temporal dimension through the network.Red, green and blue boxes indicate convolutional, normalization and pooling layers respectively.
 
 ![model](../../img/Large-scale Video Classification with Convolutional Neural Networks2.jpg) 
 

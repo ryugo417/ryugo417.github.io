@@ -17,7 +17,7 @@ Key point is to have two stage and the function which called "verb expansion".
 
 1. content planning stage
 
-Identifies the most likely subject, verb and object (SVO) using a combination of visual object and activity detectors and text-mined knowledge to judge the likelihood of SVO triplets. From a natural-language generation (NLG) perspective.
+Identifies the most likely subject, verb and object (SVO) using a combination of visual object and activity detectors and text-mined knowledge to judge the likelihood of SVO triplets from a natural-language generation (NLG) perspective.
 
 
 2. surface realization stage
