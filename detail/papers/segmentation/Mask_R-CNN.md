@@ -13,6 +13,9 @@ It show top results in all three tracks of the COCO suite of challenges, includi
 ### 3.What are important parts of technique and methods?
 
 ![model](../img/Mask_RCNN_model.jpg) 
+引用元： https://www.slideshare.net/windmdk/mask-rcnn
+
+As shown in the figure above, Instant segmentation can be performed by adding a branch to Faster R-CNN. But, Faster R- CNN was not designed for pixel-to-pixel alignment between network inputs and outputs. To fix the misalignment, it proposes a simple, quantization-free layer, called RoIAlign, that faithfully preserves exact spatial location
 
 ### 4.How did they verify it?
 

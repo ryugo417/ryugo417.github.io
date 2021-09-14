@@ -21,7 +21,7 @@ Our work can predict combinations of objects and scenes and perform at the state
 
 ![model](../../img/Explain Images with Multimodal Recurrent Neural Networks.jpg) 
 
-The whole m-RNN have theree part.
+The whole m-RNN have three part.
 - A language model part
 This part learns the dense feature embedding for each word in the dictionary and stores the semantic temporal context in recurrent layers.
 - An image part
