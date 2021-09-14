@@ -21,6 +21,16 @@ $ conda deactivate
 $ conda remove -n 環境名 --all
 ```
 
+### GPUの操作
+
+GPU usageの確認
+```
+$ nvidia-smi
+```
+Real time GPU usageの確認
+```
+$ watch –n 番号 nvidia-smi
+```
 
 ### パスの指定
 
