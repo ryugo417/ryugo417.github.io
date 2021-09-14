@@ -31,6 +31,11 @@ Real time GPU usageの確認
 ```
 $ watch –n 番号 nvidia-smi
 ```
+GPUマシンの指定
+```
+$ export CUDA_VISIBLE_DEVICES=<gpu_id> 
+```
+
 
 ### パスの指定
 
