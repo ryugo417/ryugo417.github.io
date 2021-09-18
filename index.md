@@ -21,7 +21,7 @@
 * [StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks](/detail/papers/text-to-image/StackGAN_Text_to_Photo-realistic_Image_Synthesis_with_Stacked_Generative_Adversarial_Networks.md)
 
 ### Others
-*[Mask R-CNN](/detail/papers/others/Mask_R-CNN.md)
+* [Mask R-CNN](/detail/papers/others/Mask_R-CNN.md)
 
 ### Wiki
 * [Linux command](/Wiki/linux_command.md)
