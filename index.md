@@ -19,6 +19,8 @@
 * [Generative Adversarial Text to Image Synthesis](/detail/papers/text-to-image/Generative_Adversarial_Text_to_Image_Synthesis.md)
 * [Learning What and Where to Draw](/detail/papers/text-to-image/Learning_What_and_Where_to Draw.md)
 * [StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks](/detail/papers/text-to-image/StackGAN_Text_to_Photo-realistic_Image_Synthesis_with_Stacked_Generative_Adversarial_Networks.md)
+* [AttnGAN: Fine-Grained Text to Image Generation with Attentional Generative Adversarial Networks](/detail/papers/text-to-image/AttenGAN.md)
+* [Semi-supervised FusedGAN for Conditional Image Generations](/detail/papers/text-to-image/FusedGAN.md)
 
 ### Others
 * [Mask R-CNN](/detail/papers/others/Mask_R-CNN.md)
