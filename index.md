@@ -21,6 +21,8 @@
 * [StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks](/detail/papers/text-to-image/StackGAN_Text_to_Photo-realistic_Image_Synthesis_with_Stacked_Generative_Adversarial_Networks.md)
 * [AttnGAN: Fine-Grained Text to Image Generation with Attentional Generative Adversarial Networks](/detail/papers/text-to-image/AttenGAN.md)
 * [Semi-supervised FusedGAN for Conditional Image Generations](/detail/papers/text-to-image/FusedGAN.md)
+* [Controllable Text-to-Image Generation](/detail/papers/text-to-image/ControlGAN.md)
+
 
 ### Others
 * [Mask R-CNN](/detail/papers/others/Mask_R-CNN.md)
