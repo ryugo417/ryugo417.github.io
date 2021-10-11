@@ -11,11 +11,11 @@ Its proposal can generate high-quality new attributes matching the given text, a
 
 It over-perform previous method as bellow.
 
-![compare](../img/ManiGAN_compare.png) 
+![compare](../../img/ManiGAN_compare.png) 
 
 ### 3.What are important parts of technique and methods?
 
-![model](../img/ManiGAN_model.png) 
+![model](../../img/ManiGAN_model.png) 
 
 1. Text-Image Affine Combination Module(ACM)
 
