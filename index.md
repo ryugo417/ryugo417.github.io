@@ -24,7 +24,6 @@
 * [Semi-supervised FusedGAN for Conditional Image Generations](/detail/papers/text-to-image/FusedGAN.md)
 * [Controllable Text-to-Image Generation](/detail/papers/text-to-image/ControlGAN.md)
 
-
 ### Others
 * [Mask R-CNN](/detail/papers/others/Mask_R-CNN.md)
 
