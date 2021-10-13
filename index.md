@@ -23,6 +23,8 @@
 * [AttnGAN: Fine-Grained Text to Image Generation with Attentional Generative Adversarial Networks](/detail/papers/text-to-image/AttenGAN.md)
 * [Semi-supervised FusedGAN for Conditional Image Generations](/detail/papers/text-to-image/FusedGAN.md)
 * [Controllable Text-to-Image Generation](/detail/papers/text-to-image/ControlGAN.md)
+* [TAC-GAN – Text Conditioned Auxiliary Classifier Generative Adversarial Network](/detail/papers/text-to-image/TACGAN.md)
+
 
 ### Others
 * [Mask R-CNN](/detail/papers/others/Mask_R-CNN.md)
