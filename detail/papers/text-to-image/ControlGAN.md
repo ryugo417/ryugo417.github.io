@@ -12,7 +12,7 @@ It allows parts of the image to be manipulated in correspondence to the modified
 
 ### 3.What are important parts of technique and methods?
 
-![model](../img/Controllable Text-to-Image Generation.jpg) 
+![model](../../img/Controllable Text-to-Image Generation.jpg) 
 
 1. The word-level spatial and channel-wise attention-driven generator
 
