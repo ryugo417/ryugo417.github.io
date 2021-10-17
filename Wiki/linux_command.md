@@ -21,6 +21,15 @@ $ conda deactivate
 $ conda remove -n 環境名 --all
 ```
 
+### CPUの操作
+
+ファイルの移動
+```
+$ mv [オプション] 移動元 移動先
+
+mv [オプション] ファイル1 ファイル2…… 移動先ディレクトリ
+```
+
 ### GPUの操作
 
 GPU usageの確認
