@@ -24,6 +24,10 @@
 * [Semi-supervised FusedGAN for Conditional Image Generations](/detail/papers/text-to-image/FusedGAN.md)
 * [Controllable Text-to-Image Generation](/detail/papers/text-to-image/ControlGAN.md)
 * [TAC-GAN – Text Conditioned Auxiliary Classifier Generative Adversarial Network](/detail/papers/text-to-image/TACGAN.md)
+* [Cross-Modal Contrastive Learning for Text-to-Image Generation](/detail/papers/text-to-image/XMC-GAN.md)
+
+
+
 
 
 ### Others
