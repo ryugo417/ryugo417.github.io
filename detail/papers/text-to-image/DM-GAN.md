@@ -14,6 +14,11 @@ It addresses these issues.
 
 ### 3.What are important parts of technique and methods?
 
+The architecture of it is composed of two stages: initial image generation and dynamic memory based image refinement.
+
+![model](../../img/DM-GAN_model.png) 
+
+
 - Gated Memory Writing
 
 It allows the model to select the relevant word to refine the initial images.
