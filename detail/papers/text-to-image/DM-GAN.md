@@ -18,6 +18,7 @@ The architecture of it is composed of two stages: initial image generation and d
 
 ![model](../../img/DM-GAN_model.png) 
 
+The dynamic memory based image refinement stage consists of following four components.
 
 - Gated Memory Writing
 
