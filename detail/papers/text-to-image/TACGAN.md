@@ -15,7 +15,7 @@ Taking advantage of AC-GAN's property of outputting diversity images when the in
 
 ### 4.How did they verify it?
 
-It valid ont the Oxford-102 dataset, comparing with three state-of-the-art approaches (StackGAN) using inception score (IS) and  Multi-Scale Structural Similarity (MS-SSIM) as evaluation metrics.
+It valid on the Oxford-102 dataset, comparing with three state-of-the-art approaches (StackGAN) using inception score (IS) and  Multi-Scale Structural Similarity (MS-SSIM) as evaluation metrics.
 
 It show slightly better result to those of other state of the art model.
 
