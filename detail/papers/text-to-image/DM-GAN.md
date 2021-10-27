@@ -27,6 +27,9 @@ It allows the model to select the relevant word to refine the initial images.
 
 It allows to adaptively fuse information from image and memory.
 
+- (Key Addressing, Value Reading)
+They operations are employed to read features from the memory module to refine the visual features of the low-quality images.
+
 ### 4.How did they verify it?
 
 - Text-to-Image Quality
