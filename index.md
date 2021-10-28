@@ -26,6 +26,7 @@
 * [TAC-GAN – Text Conditioned Auxiliary Classifier Generative Adversarial Network](/detail/papers/text-to-image/TACGAN.md)
 * [Cross-Modal Contrastive Learning for Text-to-Image Generation](/detail/papers/text-to-image/XMC-GAN.md)
 * [DM-GAN: Dynamic Memory Generative Adversarial Networks for Text-to-Image Synthesis](/detail/papers/text-to-image/DM-GAN.md)
+* [MirrorGAN: Learning Text-to-image Generation by Redescription](/detail/papers/text-to-image/MirrorGAN.md)
 
 
 
