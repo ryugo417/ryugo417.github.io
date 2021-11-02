@@ -1,3 +1,39 @@
+### tmuxの操作
+
+新しいセッションの作成
+```
+$ tmux new -s "name"
+```
+セッションの再開
+```
+$ tmux a -t "name"
+```
+セッション終了
+```
+$ tmux kill-session -t "session_name"
+```
+
+
+
+### GPUの操作
+
+GPU usageの確認
+```
+$ watch -n 0.2 nvidia-smi
+```
+Real time GPU usageの確認
+```
+$ watch –n 番号 nvidia-smi
+```
+GPUマシンの指定
+```
+$ export CUDA_VISIBLE_DEVICES=<gpu_id> 
+```
+GPUを誰が使っているか確認
+```
+$ htop
+```
+
 ### 仮想環境
 
 仮想環境一覧を表示
@@ -29,26 +65,6 @@ $ mv [オプション] 移動元 移動先
 
 $ mv [オプション] ファイル1 ファイル2…… 移動先ディレクトリ
 ```
-
-### GPUの操作
-
-GPU usageの確認
-```
-$ watch -n 0.2 nvidia-smi
-```
-Real time GPU usageの確認
-```
-$ watch –n 番号 nvidia-smi
-```
-GPUマシンの指定
-```
-$ export CUDA_VISIBLE_DEVICES=<gpu_id> 
-```
-GPUを誰が使っているか確認
-```
-$ htop
-```
-
 
 ### パスの指定
 
