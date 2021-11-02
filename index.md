@@ -27,6 +27,7 @@
 * [Cross-Modal Contrastive Learning for Text-to-Image Generation](/detail/papers/text-to-image/XMC-GAN.md)
 * [DM-GAN: Dynamic Memory Generative Adversarial Networks for Text-to-Image Synthesis](/detail/papers/text-to-image/DM-GAN.md)
 * [MirrorGAN: Learning Text-to-image Generation by Redescription](/detail/papers/text-to-image/MirrorGAN.md)
+* [Semantics Disentangling for Text-to-Image Generation](/detail/papers/text-to-image/SD-GAN.md)
 
 
 
