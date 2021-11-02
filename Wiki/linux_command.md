@@ -27,14 +27,14 @@ $ conda remove -n 環境名 --all
 ```
 $ mv [オプション] 移動元 移動先
 
-mv [オプション] ファイル1 ファイル2…… 移動先ディレクトリ
+$ mv [オプション] ファイル1 ファイル2…… 移動先ディレクトリ
 ```
 
 ### GPUの操作
 
 GPU usageの確認
 ```
-$ nvidia-smi
+$ watch -n 0.2 nvidia-smi
 ```
 Real time GPU usageの確認
 ```
@@ -43,6 +43,10 @@ $ watch –n 番号 nvidia-smi
 GPUマシンの指定
 ```
 $ export CUDA_VISIBLE_DEVICES=<gpu_id> 
+```
+GPUを誰が使っているか確認
+```
+$ htop
 ```
 
 
