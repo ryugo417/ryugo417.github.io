@@ -11,6 +11,8 @@ To address this issue, it can generate consistency image in spilte of retainning
 
 ### 3.What are important parts of technique and methods?
 
+![model](../../img/SD-GAN_model.png) 
+
 - Siamese Structure with Contrastive Losses
 
 It distills semantic commons from the linguistic description to keep generate image consistency under expression variants.
