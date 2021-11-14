@@ -15,6 +15,7 @@
 ### Image Manipulation
 * [ManiGAN: Text-Guided Image Manipulation](detail/papers/image-manipulation/ManiGAN.md)
 * [Segmentation-Aware Text-Guided Image Manipulation](detail/papers/image-manipulation/Segmentation-Aware_Text-Guided_Image_Manipulation.md)
+* [Semantic Image Synthesis via Adversarial Learning](detail/papers/image-manipulation/SIS-GAN.md)
 
 ### Text to Image
 * [Generative Adversarial Text to Image Synthesis](/detail/papers/text-to-image/Generative_Adversarial_Text_to_Image_Synthesis.md)

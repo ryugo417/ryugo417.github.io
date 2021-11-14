@@ -11,7 +11,7 @@ It is first model to manipulate a source image semantically with text descriptio
 
 ### 3.What are important parts of technique and methods?
 
-
+???
 
 ### 4.How did they verify it?
 
