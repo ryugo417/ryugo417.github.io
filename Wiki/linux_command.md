@@ -4,6 +4,10 @@
 ```
 $ tmux new -s "name"
 ```
+セッション一覧
+```
+$ tmux ls
+```
 セッションの再開
 ```
 $ tmux a -t "name"
@@ -13,6 +17,16 @@ $ tmux a -t "name"
 $ tmux kill-session -t "session_name"
 ```
 
+ペイン操作(Ctrl+"B")
+```
+%       左右に分割
+"       上下に分割
+q       番号表示
+←↑↓→    （矢印の方向に移動）
+x       削除
+SPACE   レイアウト変更
+{       前後入れ替え
+```
 
 
 ### GPUの操作
