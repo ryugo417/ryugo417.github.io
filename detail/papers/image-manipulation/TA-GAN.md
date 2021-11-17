@@ -19,7 +19,7 @@ It trains the text-adaptive discriminator as its core GAN framework instead of u
 ### 4.How did they verify it?
 
 It valied on CUB dataset and Oxford-102 dataset to compare with two baseline models(AttenGAN and SISGAN).
-It has three types of evaluation.
+It gets two ways to valuate.
 
 - Quantitative results
 Compare other methods using human evaluation.
