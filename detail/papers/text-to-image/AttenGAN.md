@@ -10,7 +10,7 @@ It proposes an Attentional Generative Adversarial Network (AttnGAN) that allows 
 
 Previous method commonly used approach is to encode the whole text description into a global sentence vector as the condition for GAN-based image generation. But, it prevented the generation of high quality images.
 
-This proposal is to generate to draw different sub-regions of the image by focusing on words that are most relevant to the sub-region being drawn. So it can outperforms the previous state-of-the-art methods.
+This proposal is to generate to draw different sub-regions of the image by focusing on words that are most relevant to the sub-region being drawn.
 
 ### 3.What are important parts of technique and methods?
 
@@ -46,5 +46,13 @@ It evaluates to compare to state-of-the-art methods([GAN-INT](/GAN-INT.md), [GAN
 ![result](../../img/AttenGAN_result2.jpg)
 
 It significantly outperforms previouse models.
+
+### 5.Is there a debate?
+
+It lack the ability to generate the photo-realistic image on COCO dataset compared with CUB dataset.
+It is necessary to discuss how to generate image on dataset that handle a wide variety of images.
+
+### 6.What paper should I read next?
+
 
 
