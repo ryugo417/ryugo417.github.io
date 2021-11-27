@@ -4,6 +4,8 @@
 
 It proposes an Attentional Generative Adversarial Network (AttnGAN) that allows attention-driven, multi-stage refinement for fine-grained text-to-image generation.
 
+(it propose to use R-precision as a metrics in Text-to-Image model)
+
 ### 2.What’s better than previous paper?
 
 Previous method commonly used approach is to encode the whole text description into a global sentence vector as the condition for GAN-based image generation. But, it prevented the generation of high quality images.
@@ -28,7 +30,18 @@ It provides an additional fine-grained image-text matching loss for training the
 
 ### 4.How did they verify it?
 
-It is evaluated on CUB and COCO datasets by using the inception score and R-precision as a metrics. 
-Also it compare to state-of-the-art methods([GAN-INT](/GAN-INT.md), GANWN, StackGAN, StackGAN-v2, PPGN), it significantly outperforms previouse one.
+On CUB and COCO datasets. 
+
+- Quanititative evalution
+It is the example result to change the most attended words in text descripiton while keeping the other part.
+![result](../../img/AttenGAN_result1.jpg) 
+The fact that different images matched each text descriptions can be obtained by changing the attended words shows the effectiveness of this method.
+
+
+- Qualitative evaluation
+It evaluates to compare to state-of-the-art methods([GAN-INT](/GAN-INT.md), [GANWN](/GANWN.md), [StackGAN](/StackGAN.md), StackGAN-v2, PPGN) by using the inception score and R-precision as a metrics.
+![result](../../img/AttenGAN_result2.jpg)
+
+It significantly outperforms previouse models.
 
 
