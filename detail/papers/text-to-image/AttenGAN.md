@@ -12,14 +12,23 @@ This proposal is to generate to draw different sub-regions of the image by focus
 
 ### 3.What are important parts of technique and methods?
 
-It has two important component.
+It has following two important component.
 
-1. Attentional Generative Adversarial Network(AttnGAN)
+![model](../../img/AttenGAN_model.jpg) 
 
-2. Deep Attentional Multimodal Similarity Model(DAMSM) 
+- Attentional Generative Network
 
-With an attention mechanism, the DAMSM is able to compute the similarity between the generated image and the sentence using both the global sentence level information and the fine-grained word level information. Thus, the DAMSM provides an ad- ditional fine-grained image-text matching loss for training the generator.
+It encode the description into a global sentence vector and each word in the sentence is also encoded into a word vector.
+Low-resolution images were generated from global sentence vectors, and word vectors were used to link images to words to help generate fine-grained images.
+
+- Deep Attentional Multimodal Similarity Model(DAMSM) 
+It maps sub-regions of the image and word of sentence to commom space and computes the similarity between the generated image and the sentence by using both the global sentence level infomation and the fine-grained word level information.
+It provides an additional fine-grained image-text matching loss for training the generator.
+
 
 ### 4.How did they verify it?
 
-our method is evaluated on CUB and COCO datasets by using the inception score and R-precision as a metrics. Also it compare to state-of-the-art methods, it significantly outperforms previouse one.
+It is evaluated on CUB and COCO datasets by using the inception score and R-precision as a metrics. 
+Also it compare to state-of-the-art methods([GAN-INT](/GAN-INT.md), GANWN, StackGAN, StackGAN-v2, PPGN), it significantly outperforms previouse one.
+
+

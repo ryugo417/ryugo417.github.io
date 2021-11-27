@@ -45,7 +45,7 @@ $ export CUDA_VISIBLE_DEVICES=<gpu_id>
 ```
 GPUを誰が使っているか確認
 ```
-$  gpustat
+$ gpustat
 ```
 
 ### 仮想環境
