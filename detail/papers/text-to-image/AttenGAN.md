@@ -23,7 +23,8 @@ It has following two important component.
 It encode the description into a global sentence vector and each word in the sentence is also encoded into a word vector.
 Low-resolution images were generated from global sentence vectors, and word vectors were used to link images to words to help generate fine-grained images.
 
-- Deep Attentional Multimodal Similarity Model(DAMSM) 
+- Deep Attentional Multimodal Similarity Model(DAMSM)
+
 It maps sub-regions of the image and word of sentence to commom space and computes the similarity between the generated image and the sentence by using both the global sentence level infomation and the fine-grained word level information.
 It provides an additional fine-grained image-text matching loss for training the generator.
 
@@ -33,12 +34,14 @@ It provides an additional fine-grained image-text matching loss for training the
 On CUB and COCO datasets. 
 
 - Quanititative evalution
+
 It is the example result to change the most attended words in text descripiton while keeping the other part.
 ![result](../../img/AttenGAN_result1.jpg) 
 The fact that different images matched each text descriptions can be obtained by changing the attended words shows the effectiveness of this method.
 
 
 - Qualitative evaluation
+
 It evaluates to compare to state-of-the-art methods([GAN-INT](/GAN-INT.md), [GANWN](/GANWN.md), [StackGAN](/StackGAN.md), StackGAN-v2, PPGN) by using the inception score and R-precision as a metrics.
 ![result](../../img/AttenGAN_result2.jpg)
 
