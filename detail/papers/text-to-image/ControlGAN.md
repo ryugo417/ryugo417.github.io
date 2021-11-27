@@ -35,11 +35,13 @@ It can not only reduce the randomness to synthesis image but also enforce the ge
 It evaluated the model in two ways.
 
 - Quantitative results
+  
 On the CUB bird and MS COCO datasets, it shows the validity of comparing two state-of-the-art GAN methods(StackGAN++ and [AttnGAN](/AttnGAN.md)) in text-to-image generation using Inception Score and R-precision as metrics.
 
 ![result](../../img/ControlGAN_result1.jpg) 
 
 - Qualitative results
+
 It modified the description of the original image to see how changing it would change the image. The effectiveness of the image manipulation was verified by examining how much the specified words changed and how much the rest of the image remained unchanged.
 
 ![result](../../img/ControlGAN_result2.jpg) 
