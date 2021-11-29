@@ -31,7 +31,8 @@
 * [MirrorGAN: Learning Text-to-image Generation by Redescription](/detail/papers/text-to-image/MirrorGAN.md)
 * [Semantics Disentangling for Text-to-Image Generation](/detail/papers/text-to-image/SD-GAN.md)
 
-
+### CV
+* [Stochastic Image-to-Video Synthesis using cINNs](/detail/papers/CV/Stochastic_Image-to-Video_Synthesis_using_cINNs.md)
 
 
 
