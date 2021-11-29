@@ -37,6 +37,7 @@
 
 ### Others
 * [Mask R-CNN](/detail/papers/others/Mask_R-CNN.md)
+* [CLIPScore:A Reference-free Evaluation Metric for Image Captioning](/detail/papers/others/CLIPScore.md)
 
 ### Wiki
 * [Linux command](/Wiki/linux_command.md)
