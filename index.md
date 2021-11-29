@@ -19,8 +19,8 @@
 * [Text-Adaptive Generative Adversarial Networks: Manipulating Images with Natural Language](detail/papers/image-manipulation/TA-GAN.md)
 
 ### Text to Image
-* [Generative Adversarial Text to Image Synthesis](/detail/papers/text-to-image/Generative_Adversarial_Text_to_Image_Synthesis.md)
-* [Learning What and Where to Draw](/detail/papers/text-to-image/GAWWN.md)
+* [Generative Adversarial Text to Image Synthesis](/detail/papers/text-to-image/GAN-INT.md)
+* [Learning What and Where to Draw](/detail/papers/text-to-image/GANWN.md)
 * [StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks](/detail/papers/text-to-image/StackGAN-v1.md)
 * [AttnGAN: Fine-Grained Text to Image Generation with Attentional Generative Adversarial Networks](/detail/papers/text-to-image/AttenGAN.md)
 * [Semi-supervised FusedGAN for Conditional Image Generations](/detail/papers/text-to-image/FusedGAN.md)
