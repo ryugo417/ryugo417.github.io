@@ -3,7 +3,7 @@
 ### Image Caption
 * [Generating Natural-Language Video Descriptions Using Text-Mined Knowledge](/detail/papers/image-caption/Generating_Natural-Language_Video_Descriptions_Using_Text-Mined_Knowledge.md)
 * [Explain Images with Multimodal Recurrent Neural Networks](/detail/papers/image-caption/Explain_Images_with_Multimodal_Recurrent_Neural_Networks.md)
-* [Sequence to Sequence Learning with Neural Networks](/detail/papers/image-caption/Sequence_to Sequence_Learning_with_Neural_Networks.md)
+* [Sequence to Sequence Learning with Neural Networks](/detail/papers/image-caption/Sequence_to_Sequence_Learning_with_Neural_Networks.md)
 * [Show and Tell: A Neural Image Caption Generator](/detail/papers/image-caption/Show_and_Tell_A_Neural_Image_Caption_Generator.md)
 * [Show, Edit and Tell: A Framework for Editing Image Captions](/detail/papers/image-caption/Show_Edit_and_Tell_A_Framework_for_Editing_Image_Captions.md)
 * [Large-scale Video Classification with Convolutional Neural Networks](/detail/papers/image-caption/Large-scale_Video_Classification_with_Convolutional_Neural_Networks.md)
