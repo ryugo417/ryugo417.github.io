@@ -30,6 +30,7 @@
 * [DM-GAN: Dynamic Memory Generative Adversarial Networks for Text-to-Image Synthesis](/detail/papers/text-to-image/DM-GAN.md)
 * [MirrorGAN: Learning Text-to-image Generation by Redescription](/detail/papers/text-to-image/MirrorGAN.md)
 * [Semantics Disentangling for Text-to-Image Generation](/detail/papers/text-to-image/SD-GAN.md)
+* [TediGAN: Text-Guided Diverse Face Image Generation and Manipulation](/detail/papers/text-to-image/TediGAN.md)
 
 ### CV
 * [Stochastic Image-to-Video Synthesis using cINNs](/detail/papers/CV/Stochastic_Image-to-Video_Synthesis_using_cINNs.md)
