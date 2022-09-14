@@ -31,29 +31,29 @@ For text-guided image manipulation, it implemented an instance-level optimizatio
 
 ### 4.How did they verify it?
 
-It validated four aspect(image quality, image diversity, accuracy, and realism)to comapre with state-of-the-art model in Text-to-Image synthesize(AttnGAN, ControlGAN, DM-GAN, and DFGAN) and Text-Guided Image Manipulation(ManiGAN).
-It use Fre ́chet Inception Distance (FID) and Learned Perceptual Image Patch Similarity (LPIPS) as quality and diversity metricses, respectively.　In a user study, users are asked to judge which one is the most photo-realistic and most coherent with the given texts.
+It validated four aspect(image quality, image diversity, accuracy, and realism) to comapre with state-of-the-art model in Text-to-Image synthesize(AttnGAN, ControlGAN, DM-GAN, and DFGAN) and Text-Guided Image Manipulation(ManiGAN).
+It use Frechet Inception Distance (FID) and Learned Perceptual Image Patch Similarity (LPIPS) as quality and diversity metricses, respectively. In a user study, users are asked to judge which one is the most photo-realistic and most coherent with the given texts.
 
 
 - Text-to-Image Generation
 
 Quantitative Comparison
 
-![result](../../img/AttenGAN_result1.jpg) 
+![result](../../img/TediGAN_result1.jpg) 
 
 Qualitatibe Comparison
 
-![result](../../img/AttenGAN_result2.jpg) 
+![result](../../img/TediGAN_result2.jpg) 
 
 - Text-Guided Image Manipulation
 
 Quantitative Comparison
 
-![result](../../img/AttenGAN_result3.jpg) 
+![result](../../img/TediGAN_result3.jpg) 
 
 Qualitatibe Comparison
 
-![result](../../img/AttenGAN_result4.jpg) 
+![result](../../img/TediGAN_result4.jpg) 
 
 ### 5.Is there a debate?
 
