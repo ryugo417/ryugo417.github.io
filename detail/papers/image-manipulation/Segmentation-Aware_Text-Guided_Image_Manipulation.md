@@ -33,4 +33,5 @@ It has produced results that are equal to or better than state-of-the-art method
 
 ### 5.Is there a debate?
 
+It depends on the segmentation map, so it is not perfect to use text for image manipulation.
 

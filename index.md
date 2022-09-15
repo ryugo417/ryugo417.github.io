@@ -13,10 +13,14 @@
 * [Context-Aware Group Captioning via Self-Attention and Contrastive Features](/detail/papers/image-caption/Context-Aware_Group_Captioning_via_Self-Attention_and_Contrastive_Features.md)
 
 ### Image Manipulation
+#### GAN-Based
 * [ManiGAN: Text-Guided Image Manipulation](detail/papers/image-manipulation/ManiGAN.md)
 * [Segmentation-Aware Text-Guided Image Manipulation](detail/papers/image-manipulation/Segmentation-Aware_Text-Guided_Image_Manipulation.md)
 * [Semantic Image Synthesis via Adversarial Learning](detail/papers/image-manipulation/SIS-GAN.md)
 * [Text-Adaptive Generative Adversarial Networks: Manipulating Images with Natural Language](detail/papers/image-manipulation/TA-GAN.md)
+
+#### Diffusion model-Based
+* [DiffusionCLIP: Text-Guided Diffusion Models for Robust Image Manipulation](detail/papers/image-manipulation/DiffusionCLIP.md)
 
 ### Text to Image
 * [Generative Adversarial Text to Image Synthesis](/detail/papers/text-to-image/GAN-INT.md)
