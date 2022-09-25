@@ -1,4 +1,4 @@
-## Repaint
+## RePaint: Inpainting using Denoising Diffusion Probabilistic Models
 
 ### 1.What is this paper about?
 
