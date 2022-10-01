@@ -36,9 +36,13 @@
 * [Semantics Disentangling for Text-to-Image Generation](/detail/papers/text-to-image/SD-GAN.md)
 * [TediGAN: Text-Guided Diverse Face Image Generation and Manipulation](/detail/papers/text-to-image/TediGAN.md)
 * [TIME: Text and Image Mutual-Translation Adversarial Networks](/detail/papers/text-to-image/TIME.md)
+* [Cycle-Consistent Inverse GAN for Text-to-Image Synthesis](/detail/papers/text-to-image/CI-GAN.md)
+* [Interactive Image Generation with Natural-Language Feedback](/detail/papers/text-to-image/TiGAN.md)
 
 ### CV
 * [Stochastic Image-to-Video Synthesis using cINNs](/detail/papers/CV/Stochastic_Image-to-Video_Synthesis_using_cINNs.md)
+* [TOWARDS FASTER AND STABILIZED GAN TRAINING FOR HIGH-FIDELITY FEW-SHOT IMAGE SYNTHESIS](/detail/papers/CV/TOWARDS_FASTER_AND_STABILIZED_GAN_TRAINING_FOR_HIGH-FIDELITY_FEW-SHOT_IMAGE_SYNTHESIS.md)
+
 
 
 
