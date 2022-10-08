@@ -2,7 +2,7 @@
 
 ### 1.What is this paper about?
 
-Under the CAN frame work, it indecates that G can be boosted substantially by training with D as a language model, which adapts the Transromer to connect between the image features and word embedding.
+Under the GAN frame work, it indecates that G can be boosted substantially by training with D as a language model, which adapts the Transromer to connect between the image features and word embedding.
 Furthermore it introduce the annealing conditional hinge loss that keep the balances the adversak learing.
 It can not only ganerate the image from text but make image caption.
 
