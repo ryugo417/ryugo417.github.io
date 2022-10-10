@@ -26,14 +26,16 @@ In upsampling archtecture, it injects sentence info between each layer as follow
 ![model](../../img/SEA-T2F_SFIM.png)
 
 - AMC
-It aims to 
+たくさんの単語を、視覚情報と結びつけることができるattention機構を提案した。
+具体的には、Speatial-attentionを並列に結び付けることで、computation costを削減し、複数単語-visual infoのcross informationの獲得を可能にした。
 
-![model](../../img/SEA-T2F_SFIM.png)
+![model](../../img/SEA-T2F_AMC.png)
 
 ### 4.How did they verify it?
 
-It performs the quantitative comparision with SOTA text-guided image manipulation methods, TediGAN, StyleCLIP and StyleGAN-NADA.
-
+複数文章で画像を生成するexsistingモデルは、提案手法がほとんどなく、あったとしても莫大なcomputing costを有し、実用性がとても低いため、このモデルは、1-captionの顔画像生成を用いて評価を行った。
+具体的には、1-caption text-faceモデルの(AttnGAN, ControlGAN)と、1つの文章を10個copyして10-caption text-faceモデルを使用して定性的、定量的比較を行った。
+いかにそれらの評価結果を示す。
 ![result](../../img/DiffusionCLIP_result.png)
 
 ### 5.Is there a debate?
