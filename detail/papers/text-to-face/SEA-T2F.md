@@ -1,4 +1,4 @@
-## DiffusionCLIP: Text-Guided Diffusion Models for Robust Image Manipulation
+## Multi-caption Text-to-Face Synthesis: Dataset and Algorithm
 
 ### 1.What is this paper about?
 
@@ -36,6 +36,27 @@ In upsampling archtecture, it injects sentence info between each layer as follow
 複数文章で画像を生成するexsistingモデルは、提案手法がほとんどなく、あったとしても莫大なcomputing costを有し、実用性がとても低いため、このモデルは、1-captionの顔画像生成を用いて評価を行った。
 具体的には、1-caption text-faceモデルの(AttnGAN, ControlGAN)と、1つの文章を10個copyして10-caption text-faceモデルを使用して定性的、定量的比較を行った。
 いかにそれらの評価結果を示す。
-![result](../../img/DiffusionCLIP_result.png)
+![result](../../img/SEA-T2_result_face.png)
+
+metricsとしては、Inception Scoreと、top-5 image retrieval accuracy (Top-5 Acc)の二つを用いた。
+前者は、画像のquality、後者は画像とtextのmatch度を示したものである。
+
+さらに、複数文章が存在するCUB datasetを使用して、text-imageモデルを生成した。
+先ほどの評価と同様に、1-captionで画像を生成しても、高い精度の画像を生成することができた。
+それらの、結果をqualitative、quantitativeの表にまとめた。その結果を以下に示す。
+
+![result](../../img/SEA-T2_result_cub.png)
+
+1-caption to image synthesizeの分野においても、先行研究より優れた画像を生成することができた。
+
+さらに、10-captionsを使用して顔画像、鳥画像を生成した結果をいかに示す。
+
+![result](../../img/SEA-T2_result_10face.png)
+![result](../../img/SEA-T2_result_10cub.png)
+
+
+
+
+
 
 ### 5.Is there a debate?
