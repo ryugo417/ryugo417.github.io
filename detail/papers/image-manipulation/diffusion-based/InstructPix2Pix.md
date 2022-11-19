@@ -41,7 +41,10 @@ SDEditとText2Liveと定量的・定性的に比較した。
 
 metrics
 cosine similarity of CLIP image embeddings (入力画像と出力画像がどれくらい一緒か)
+
 the directional CLIP similarity (テキストキャプションの変化が画像の変化とどの程度一致するか）
+
+この二つのmetricsはcompetingなmetricsだから見づらい。
 
 ![model](../../../img/InstructPix2Pix_quantitative.png) 
 
