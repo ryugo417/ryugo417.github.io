@@ -22,11 +22,11 @@ It models that replace all threestages with a single neural network that is trai
 
 ### 3.What are important parts of technique and methods?
 
-![model](../../detail/img/Large-scale Video Classification with Convolutional Neural Networks1.jpg) 
+![model](../../../img/Large-scale Video Classification with Convolutional Neural Networks1.jpg) 
 
 It shows explored approaches for fusing information over temporal dimension through the network.Red, green and blue boxes indicate convolutional, normalization and pooling layers respectively.
 
-![model](../../detail/img/Large-scale Video Classification with Convolutional Neural Networks2.jpg) 
+![model](../../../img/Large-scale Video Classification with Convolutional Neural Networks2.jpg) 
 
 this model takes advantage of the camera bias that the object of interest often occupies the center region. So input frames are fed into two separate streams of processing over two spatial resolutions.
 

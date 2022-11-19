@@ -6,13 +6,13 @@ It proposes a novel global-local attentive and semantic-preserving text-to-image
 
 ### 2.What’s better than previous paper?
 
-![model](ryugo417.github.io/detail/img/MirrorGAN_explain.png) 
+![model](../../../../img/MirrorGAN_explain.png) 
 
 By using Text-Image-Text model, it performs not only generate high-quality and visually realistic images but also guaranteeing semantic consistency between the text description and visual content
 
 ### 3.What are important parts of technique and methods?
 
-![model](ryugo417.github.io/detail/img/MirrorGAN_model.png) 
+![model](../../../../img/MirrorGAN_model.png) 
 
 It consist of three modules.
 - STEM(semantic text embedding module)

@@ -34,10 +34,10 @@ Cycle-Consistent Constraintを使用することによって、Inverse GANで生
 全ての評価において、最も良い結果を得ることができた。
 
 text to image
-![result](ryugo417.github.io/detail/img/CI_GAN＿COOK.jpg)
-![result](ryugo417.github.io/detail/img/CI_GAN＿CUB.jpg)
+![result](../../../../img/CI_GAN＿COOK.jpg)
+![result](../../../../img/CI_GAN＿CUB.jpg)
 text-based image manipulation
-![result](ryugo417.github.io/detail/img/CI_GAN＿MANI.jpg)
+![result](../../../../img/CI_GAN＿MANI.jpg)
 
 ### 5.Is there a debate?
 StyleGANの潜在空間には、完璧にmatchするものがないため、text-based image manipulationは多少変化した画像が生成されてしまう。

@@ -13,18 +13,18 @@ By learning the residual representation, additional conditioning information can
 
 It is overviews of its proposed framework.
 
-![model](ryugo417.github.io/detail/img/Stochastic_Image-to-Video_Synthesis_using_cINNs_model.jpg)
+![model](../../../img/Stochastic_Image-to-Video_Synthesis_using_cINNs_model.jpg)
 
 It uses a conditional invertible neural network (cINN).
 
 By understanding the image to video conversion process, it can directly control such factors, and thus control the progression of the scene depicted in the input image x0.
 In usually, it is fomulation of z to synthesize image to video.
 
-![fomu](ryugo417.github.io/detail/img/Stochastic_Image-to-Video_Synthesis_using_cINNs_fomu1.jpg)
+![fomu](../../../img/Stochastic_Image-to-Video_Synthesis_using_cINNs_fomu1.jpg)
 
 Assuming that η ∈ R dη represents such a factor, e.g. the target position of a moving object, it can model it explicitly while learning our bi-directional mapping Tθ as
 
-![fomu](ryugo417.github.io/detail/img/Stochastic_Image-to-Video_Synthesis_using_cINNs_fomu2.jpg)
+![fomu](../../../img/Stochastic_Image-to-Video_Synthesis_using_cINNs_fomu2.jpg)
 
 
 

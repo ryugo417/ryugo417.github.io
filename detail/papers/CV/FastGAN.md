@@ -14,14 +14,14 @@
 
 本モデルの、GとDの概要を以下の図に示す。
 
-![model](../../img/meta_gan_g.jpg)
+![model](../../../img/meta_gan_g.jpg)
 ![model](../../../img/meta_gan_d.jpg)
 
 SKIP-LAYER CHANNEL-WISE EXCITATION
 
 ResBlockと同様に,Skip-connectionを利用した構造である。本来のResBlockでは、加算している部分を積を用いることによって、ある程度離れた次元間のスキップ接続を可能にしている。以下に、本layerの詳細を示すFigを示す。
 
-![fomu](../../../../img/meta_gan_net.jpg)
+![fomu](../../../img/meta_gan_net.jpg)
 
 SELF-SUPERVISED DISCRIMINATOR
 
@@ -29,7 +29,7 @@ SELF-SUPERVISED DISCRIMINATOR
 GANのDescriminater Dをエンコーダとして扱い、それを小さなデコーダで訓練する。
 デコーダは，切り取られたf1からI’partを，f2からI′を生成する． 最後に，Dとデコーダは，I'partとIpart，I′とIをマッチングさせて，以下の損失関数を最小化するように一緒に学習される
 
-![fomu](ryugo417.github.io/detail/img/meta_gan_eq.jpg)
+![fomu](../../../detail/img/meta_gan_eq.jpg)
 
 ### 4.How did they verify it?
 

@@ -11,7 +11,7 @@ By taking into account the segmentation loss of the background image, it is poss
 
 ### 3.What are important parts of technique and methods?
 
-![model](ryugo417.github.io/detail/img/Segmentation-Aware_Text-Guided_Image_Manipulation_model.png) 
+![model](../../../../img/Segmentation-Aware_Text-Guided_Image_Manipulation_model.png) 
 
 
 - Segmentation Network
@@ -27,7 +27,7 @@ It is evaluated on the CUB bird dataset, comparing with three state-of-the-art a
 
 - Qualitative Comparison
 
-![result](ryugo417.github.io/detail/img/Segmentation-Aware_Text-Guided_Image_Manipulation_result.png) 
+![result](../../../../img/Segmentation-Aware_Text-Guided_Image_Manipulation_result.png) 
 
 It has produced results that are equal to or better than state-of-the-art methods.
 

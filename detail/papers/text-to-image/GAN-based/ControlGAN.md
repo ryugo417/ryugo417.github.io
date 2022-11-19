@@ -15,7 +15,7 @@ It allows parts of the image to be manipulated in correspondence to the modified
 
 ### 3.What are important parts of technique and methods?
 
-![model](ryugo417.github.io/detail/img/ControlGAN_model.jpg) 
+![model](../../../../img/ControlGAN_model.jpg) 
 
 - The word-level spatial and channel-wise attention-driven generator
 
@@ -38,13 +38,13 @@ It evaluated the model in two ways.
   
 On the CUB bird and MS COCO datasets, it shows the validity of comparing two state-of-the-art GAN methods(StackGAN++ and [AttnGAN](/AttnGAN.md)) in text-to-image generation using Inception Score and R-precision as metrics.
 
-![result](ryugo417.github.io/detail/img/ControlGAN_result1.jpg) 
+![result](../../../../img/ControlGAN_result1.jpg) 
 
 - Qualitative results
 
 It modified the description of the original image to see how changing it would change the image. The effectiveness of the image manipulation was verified by examining how much the specified words changed and how much the rest of the image remained unchanged.
 
-![result](ryugo417.github.io/detail/img/ControlGAN_result2.jpg) 
+![result](../../../../img/ControlGAN_result2.jpg) 
 
 It shows that it demonstrated by the state-of-the-art output obtained in both tests.
 

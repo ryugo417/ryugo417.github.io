@@ -18,7 +18,7 @@ It addresses these issues.
 
 The architecture of it is composed of two stages: initial image generation and dynamic memory based image refinement.
 
-![model](ryugo417.github.io/detail/img/DM-GAN_model.png) 
+![model](../../../../img/DM-GAN_model.png) 
 
 The dynamic memory based image refinement stage consists of following four components.
 

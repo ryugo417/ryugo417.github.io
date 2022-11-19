@@ -23,7 +23,7 @@ By recounstrasting in the image space instead of latent space, it can surpervise
 - Visual-Linguistic Similarity Learning
 
 It is a visual-linguistic similarity module to project the image and text into a common embedding space, i.e., the W space, like folloing figure.
-![component](ryugo417.github.io/detail/img/TediGAN_component.png) 
+![component](../../../../img/TediGAN_component.png) 
 
 - Instance-Level Optimization
 
@@ -39,21 +39,21 @@ It use Frechet Inception Distance (FID) and Learned Perceptual Image Patch Simil
 
 Quantitative Comparison
 
-![result](ryugo417.github.io/detail/img/TediGAN_result1.jpg) 
+![result](../../../../img/TediGAN_result1.jpg) 
 
 Qualitatibe Comparison
 
-![result](ryugo417.github.io/detail/img/TediGAN_result2.jpg) 
+![result](../../../../img/TediGAN_result2.jpg) 
 
 - Text-Guided Image Manipulation
 
 Quantitative Comparison
 
-![result](ryugo417.github.io/detail/img/TediGAN_result3.jpg) 
+![result](../../../../img/TediGAN_result3.jpg) 
 
 Qualitatibe Comparison
 
-![result](ryugo417.github.io/detail/img/TediGAN_result4.jpg) 
+![result](../../../../img/TediGAN_result4.jpg) 
 
 ### 5.Is there a debate?
 
