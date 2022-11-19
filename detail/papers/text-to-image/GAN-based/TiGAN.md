@@ -21,7 +21,7 @@
 CLIP lossとcontrastive lossを用いて、contrastive learningを用いて、テキスト情報と画像情報の結びつけ、テキスト情報とfeature情報の結びつけを行った。
 さらに、既存研究では、StyleGAN2の潜在空間にテキスト情報をmappingすることが多かったが、
 このモデルでは、本論文内で提案した、以下のmoduleを使用することで、テキスト情報をstyle vectorに加えることで、モデルにテキスト情報を入力した。
-![result](detail/img/TiGAN＿eq.jpg)
+![result](ryugo417.github.io/detail/img/TiGAN＿eq.jpg)
 この二つのmoduleは、最初全て(1)を用いて、(2)に変換していきfine-tuningした。
 
 さらに、Interactiveな画像操作では、2-round目以降与えられた文章と、その前の文章の差分を得てその差分の文章とそれに関連する画像部分が閾値より大きい場合、編集し、Interactiveな画像操作を可能にした。
@@ -36,7 +36,7 @@ Interactive Image Generationでは、ユーザシミュレーターを使用し�
 シミュレータは、データセットからランダムに抽出され、モデルにとって未知であるいくつかのターゲット属性をもち、テキスト情報を加えて、ターゲット属性に一致するまでその処理の回数を比較することで、Interactiveな画像生成の評価を行った。
 その評価使用では、全てのmetricsで、過去のモデルより優れていることを占めている。
 以下に定性的結果を示す。
-![result](detail/img/TiGAN_result.jpg)
+![result](ryugo417.github.io/detail/img/TiGAN_result.jpg)
 
 ### 5.Is there a debate?
 

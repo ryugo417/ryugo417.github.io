@@ -13,7 +13,7 @@ It allow to decompose the difficult problem of generating high-resolution images
 It has two GAN stages and Conditioning Augmentation.
 
 ##### Overview GAN
-![model](detail/img/StackGAN_Text_to_Photo-realistic_Image_Synthesis_with_Stacked_Generative_Adversarial_Networks.jpg) 
+![model](ryugo417.github.io/detail/img/StackGAN_Text_to_Photo-realistic_Image_Synthesis_with_Stacked_Generative_Adversarial_Networks.jpg) 
 
 ###### Stage-1 GAN
 it sketches the primitive shape and basic colors of the object conditioned on the given text description, and draws the background layout from a random noise vector, yielding a low-resolution image.

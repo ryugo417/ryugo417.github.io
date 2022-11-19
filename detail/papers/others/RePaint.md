@@ -14,9 +14,9 @@ It has two advantage,
 
 ### 3.What are important parts of technique and methods?
 
-![model](detail/img/RePaint_model.jpg)
+![model](ryugo417.github.io/detail/img/RePaint_model.jpg)
 Consider the diffusion model, it define the unknown region and the known region as follow.
-![equ](detail/img/RePaint_equ.jpg)
+![equ](ryugo417.github.io/detail/img/RePaint_equ.jpg)
 
 This adapt the unconditional DDPM, so it make the model possible to remove the diversity mask.
 Andmore, it has the contribution for consistency because DDPM originaly used for image synthesize.

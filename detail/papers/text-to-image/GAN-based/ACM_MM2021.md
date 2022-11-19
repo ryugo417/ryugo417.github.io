@@ -19,7 +19,7 @@
 ### 3.What are important parts of technique and methods?
 
 いかに、unified multi-modal Transformerの概要を示す。
-![model](detail/img/SEA-T2F_model.png) 
+![model](ryugo417.github.io/detail/img/SEA-T2F_model.png) 
 
 このモデルは、Faster-RCNNを用いて、物体検出を行って得られた、grid featureとtext情報をconcatしてTransformerに入力することで、画像とテキストを結びつけることが可能になったモデルである。
 詳細は、後日記載する。
@@ -32,7 +32,7 @@ Text-to-Imageタスクにおいては、FID。Image-to-captionタスクにおい
 Text-to-captionでは、FID scoreが51.5から42.1に向上した。
 さらに、image-to-captionsでは、以下の表のように精度が向上した。
 
-![model](detail/img/ACM_2021_result.jpg)
+![model](ryugo417.github.io/detail/img/ACM_2021_result.jpg)
 
 
 
