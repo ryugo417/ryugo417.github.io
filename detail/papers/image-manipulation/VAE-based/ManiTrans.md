@@ -50,7 +50,7 @@ CUBとOxfordの画像をmixの仕方などが知りたいが、何も書かれ�
 → codeの公開はよーーーー
 
 ### 6.My interest paper in this paper
-CogView: Mastering Text-to-Image Generation via Transformers
-ImageBART: Bidirectional Context with Multinomial Diffusion for Autoregressive Image Synthesis
-Taming Transformers for High-Resolution Image Synthesis
-Zero-Shot Text-to-Image Generation
+- CogView: Mastering Text-to-Image Generation via Transformers
+- ImageBART: Bidirectional Context with Multinomial Diffusion for Autoregressive Image Synthesis
+- Taming Transformers for High-Resolution Image Synthesis
+- Zero-Shot Text-to-Image Generation
