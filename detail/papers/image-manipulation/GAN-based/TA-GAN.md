@@ -34,5 +34,5 @@ From this, the effectiveness of reconstruction loss was shown.
 From the result, we understand it effectively disentangles visual attributes invariant to pose, shape, and background.
 On the other hand, it sometimes fail due to the trade-off between generating new contents and preserving original contents.
 
-![fail_result](../../img/TA-GAN_fail_result.png) 
+![fail_result](detail/img/TA-GAN_fail_result.png) 
 

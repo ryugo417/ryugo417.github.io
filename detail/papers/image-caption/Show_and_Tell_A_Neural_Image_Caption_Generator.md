@@ -14,7 +14,7 @@ Most previous attempts have proposed to stitch together existing solutions of th
 
 ### 3.What are important parts of technique and methods?
 
-![model](../../img/A Neural Image Caption Generator.jpg) 
+![model](detail/img/A Neural Image Caption Generator.jpg) 
 
 
 recent machine taranslating work is mainly that an “encoder” RNN reads the source sentence and transforms it into a rich fixed-length vector representation, which in turn in used as the initial hidden state of a “decoder” RNN that generates the target sentence.
@@ -30,6 +30,6 @@ we verify to generate description given image and explore the robustness of our 
 ### 5.Is there a debate?
 
 ### dateset
-![dataset](../../img/A Neural Image Caption Generator-dataset.jpg) 
+![dataset](detail/img/A Neural Image Caption Generator-dataset.jpg) 
 
 

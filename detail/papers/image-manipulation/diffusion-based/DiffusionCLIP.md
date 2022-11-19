@@ -15,7 +15,7 @@ This model is possible to manipulate not only trained but also unseen domain, so
 ### 3.What are important parts of technique and methods?
 
 This is the overall of DiffusionCLIP.
-![model](../../img/DiffusionCLIP_model.jpg) 
+![model](detail/img/DiffusionCLIP_model.jpg) 
 
 It introduce the two type of losses: directional CLIP loss and Identity loss in reverse diffusion proccess to controll the attribution.
 - Directional CLIP loss
@@ -28,6 +28,6 @@ To prevent the unwanted changes and preserve the identity of the object.(for fac
 
 It performs the quantitative comparision with SOTA text-guided image manipulation methods, TediGAN, StyleCLIP and StyleGAN-NADA.
 
-![result](../../img/DiffusionCLIP_result.jpg)
+![result](detail/img/DiffusionCLIP_result.jpg)
 
 ### 5.Is there a debate?

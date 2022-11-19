@@ -17,7 +17,7 @@ And this is the first work to handle bot text2image and image caption in a singl
 
 ### 3.What are important parts of technique and methods?
 Folloing Fig is the overall of this model.
-![model](../../img/TIME_model.jpg) 
+![model](detail/img/TIME_model.jpg) 
 
 - Text-Conditioned Image Transformer
 
@@ -26,7 +26,7 @@ Folloing Fig is the overall of this model.
     1. Adapt the multi-head structure. To replicate the attention module with Transformer make the model flexable by each imag region to account for multiple words.
     1. stacks the attention layers in a residual structure for a better performance by provisioning multiple attention layers and recurrently revising the learned features.
 
-    ![attention](../../img/TIME_attention.jpg) 
+    ![attention](detail/img/TIME_attention.jpg) 
 
 - 2-D positional encoding
 
@@ -35,7 +35,7 @@ It propose it counter-part to the 1-D positional encodeing in [Transformer](http
 
 In contrast 1-D ones, it is possible to destinguish the position for attention as following Fig.
 
-![2D](../../img/TIME_2D.jpg)
+![2D](detail/img/TIME_2D.jpg)
 
 - Annealing Image-Text matching loss
 
@@ -45,18 +45,18 @@ To consider that G can learn a good semantic visual translation at early iterati
 
 It evaluates both task text2image and image-captioning.
 
-![cub](../../img/TIME_cub.jpg)
-![coco](../../img/TIME_coco.jpg)
+![cub](detail/img/TIME_cub.jpg)
+![coco](detail/img/TIME_coco.jpg)
 
 - Text to Image
 We evaluate the image qulaity on the CUB and COCO datasets.
 This is the quantitative result by using IS, FID, R-precision, SOA-C as a metrics.
 
-![quan](../../img/TIME_quan.jpg)
+![quan](detail/img/TIME_quan.jpg)
 
 - Image captioning
 Compare with state-of-the-art model on the COCO dataset, we evaluate by using BLEU-4, Image-Retrieval@5 and Text-Retrieval@5.
-![text](../../img/TIME_text.jpg)
+![text](detail/img/TIME_text.jpg)
 
 ### 5.Is there a debate?
 

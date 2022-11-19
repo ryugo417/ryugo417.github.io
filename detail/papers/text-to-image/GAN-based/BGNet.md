@@ -17,7 +17,7 @@
 ### 3.What are important parts of technique and methods?
 
 
-![model](../../img/SEA-BGNet_model.png) 
+![model](detail/img/SEA-BGNet_model.png) 
 Contrallable GANに対して、背景情報をモデルに組み込むため、multi-stageの各層の最後にsynthesis blackを追加している。
 さらに、spatial attention and channel-wise attention modulesを用いることで、物体の輪郭やtextureなどの生成をより高度に変更できるようになった。
 
@@ -28,7 +28,7 @@ Contrallable GANに対して、背景情報をモデルに組み込むため、m
 MC-GANとMC-Stackという２つのモデルと定性的結果のみを用いて比較しており、state-of-the-artな結果を示している。
 さらに、ablation studyを用いることで、各アーキテクチャを比較できる。
 
-![model](../../img/BGNet_result.png)
+![model](detail/img/BGNet_result.png)
 
 ### 5.Is there a debate?
 

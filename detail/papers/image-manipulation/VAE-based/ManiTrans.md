@@ -14,7 +14,7 @@
 
 ### 3.What are important parts of technique and methods?
 
-![compare](../../img/ManiTrans_model.png) 
+![compare](detail/img/ManiTrans_model.png) 
 
 VAEを用いて、出力画像を入力画像が同じになるように学習し、Transoformerを使用して、textとimage(token)の結びつきを学習させた。
 
@@ -33,12 +33,12 @@ Quantitative evalution
 
 Qualitative evalution
 
-![compare](../../img/ManiTrans_quality.png) 
+![compare](detail/img/ManiTrans_quality.png) 
 
 また、CUBとOxfordの融合データセットを作ることで、
 花→鳥、鳥→花のimage manipulationgaが可能になった。
 
-![compare](../../img/ManiTrans_quality_change.png) 
+![compare](detail/img/ManiTrans_quality_change.png) 
 
 ### 5.Is there a debate?
 

@@ -15,7 +15,7 @@ It address the knowledge gap by computing multi-head attention on the words in t
 
 ### 3.What are important parts of technique and methods?
 
-![model](../../img/Tran_Transform_and_Tell_Entity-Aware_News_Image_Captioning_CVPR_2020_paper1.png) 
+![model](detail/img/Tran_Transform_and_Tell_Entity-Aware_News_Image_Captioning_CVPR_2020_paper1.png) 
 
 
 It has four type encoder to attention over four different modalities to address the knowledge gap.
@@ -44,4 +44,4 @@ On GoodNews, the full model yields a CIDEr score of 53.8, whereas the pre- vious
 ### 6.Supplement
 
 Good News vs NYTimes800k
-![database](../../img/Tran_Transform_and_Tell_Entity-Aware_News_Image_Captioning_CVPR_2020_paper2.png) 
+![database](detail/img/Tran_Transform_and_Tell_Entity-Aware_News_Image_Captioning_CVPR_2020_paper2.png) 

@@ -16,7 +16,7 @@ This proposal is to generate to draw different sub-regions of the image by focus
 
 It has following two important component.
 
-![model](../../img/AttenGAN_model.jpg) 
+![model](detail/img/AttenGAN_model.jpg) 
 
 - Attentional Generative Network
 
@@ -36,14 +36,14 @@ On CUB and COCO datasets.
 - Quanititative evalution
 
 It is the example result to change the most attended words in text descripiton while keeping the other part.
-![result](../../img/AttenGAN_result1.jpg) 
+![result](detail/img/AttenGAN_result1.jpg) 
 The fact that different images matched each text descriptions can be obtained by changing the attended words shows the effectiveness of this method.
 
 
 - Qualitative evaluation
 
 It evaluates to compare to state-of-the-art methods([GAN-INT](/GAN-INT.md), [GANWN](/GANWN.md), [StackGAN](/StackGAN.md), StackGAN-v2, PPGN) by using the inception score and R-precision as a metrics.
-![result](../../img/AttenGAN_result2.jpg)
+![result](detail/img/AttenGAN_result2.jpg)
 
 It significantly outperforms previouse models.
 
