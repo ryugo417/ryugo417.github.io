@@ -39,6 +39,9 @@
 * [Cycle-Consistent Inverse GAN for Text-to-Image Synthesis](/detail/papers/text-to-image/CI-GAN.md)
 * [Interactive Image Generation with Natural-Language Feedback](/detail/papers/text-to-image/TiGAN.md)
 
+### Text to Face
+* [Multi-caption Text-to-Face Synthesis: Dataset and Algorithm](/detail/papers/text-to-face/SEA-T2F.md)
+
 ### CV
 * [Stochastic Image-to-Video Synthesis using cINNs](/detail/papers/CV/Stochastic_Image-to-Video_Synthesis_using_cINNs.md)
 * [TOWARDS FASTER AND STABILIZED GAN TRAINING FOR HIGH-FIDELITY FEW-SHOT IMAGE SYNTHESIS](/detail/papers/CV/TOWARDS_FASTER_AND_STABILIZED_GAN_TRAINING_FOR_HIGH-FIDELITY_FEW-SHOT_IMAGE_SYNTHESIS.md)
