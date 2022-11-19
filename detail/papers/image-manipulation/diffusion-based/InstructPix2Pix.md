@@ -43,7 +43,7 @@ metrics
 cosine similarity of CLIP image embeddings (入力画像と出力画像がどれくらい一緒か)
 the directional CLIP similarity (テキストキャプションの変化が画像の変化とどの程度一致するか）
 
-![model](../../../img/＄.png) 
+![model](../../../img/InstructPix2Pix_quantitative.png) 
 
 
 ### 5.Is there a debate?
@@ -54,8 +54,7 @@ the directional CLIP similarity (テキストキャプションの変化が画�
 
 確かに、text(-instructed) image manipulationは、いつもground-truthを生成することで、trainを行っていた。
 正解データを作ってしまうというのは、とても面白い。
-なんか、StyleGANでも正解データ作っちゃうみたいなノリあったな。(GAN-Supervised Dense Visual Alignment)
-
+なんか、StyleGANでも正解データ作っちゃうみたいなノリもある。(GAN-Supervised Dense Visual Alignment)
 
 ### 6.My interest paper in this paper
 - Prompt-to-prompt image editing with cross attention control.
