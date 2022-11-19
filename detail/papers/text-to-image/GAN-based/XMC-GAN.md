@@ -12,7 +12,7 @@ It shows that contrastive learning in the context of text-to- image synthesis an
 
 It use contrastive learning and following three contrastive loss.
 
-![model](../../../../img/XMC-GAN.png) 
+![model](../../../img/XMC-GAN.png) 
 
 - image to sentence
 
@@ -26,7 +26,7 @@ It use contrastive learning and following three contrastive loss.
 
 → individual image regions should be recognizable and consistent with words in the sentence. 
 
-![model](../../../../img/XMC-GAN_model.png) 
+![model](../../../img/XMC-GAN_model.png) 
 
 
 ### 4.How did they verify it?
@@ -37,8 +37,8 @@ It valid on the COCO-14, LN-COCO and LN-OpenImages datasets using Inception Scor
 
 It shows the validation to compare with three state-of-the-art approaches: CP-GAN, SD-GAN and OP-GAN.
 
-![Result_1](../../../../img/XMC-GAN_result1.png)
-![Result_2](../../../../img/XMC-GAN_result2.png)
+![Result_1](../../../img/XMC-GAN_result1.png)
+![Result_2](../../../img/XMC-GAN_result2.png)
 
 From those result, it shows that FID may be a more reliable metric for measuring text-to-image synthesis quality.
 

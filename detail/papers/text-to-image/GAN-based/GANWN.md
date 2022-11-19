@@ -17,13 +17,13 @@ It has two ways.
 
 This model is accomplished by controlling the position of the bounding box.
 
-![model1](../../../../img/Learning What and Where to Draw1.jpg) 
+![model1](../../../img/Learning What and Where to Draw1.jpg) 
 
 - Keypoint-conditional text-to-image model
 
 This model is accomplished by providing the location keypoints.
 
-![model2](../../../../img/Learning What and Where to Draw2.jpg) 
+![model2](../../../img/Learning What and Where to Draw2.jpg) 
 
 ### 4.How did they verify it?
 
@@ -32,18 +32,18 @@ It is valid to generate images from text description by using Caltech-UCSD Birds
 It demondtrate three ways on CUB.
 - It shows it can also control the size and aspect ratio of the bird by specifing via bounding box coordinates.
 
-![result1](../../../../img/Learning What and Where to Draw3.jpg) 
+![result1](../../../img/Learning What and Where to Draw3.jpg) 
 
 - It shows the case of text-conditional image generation with keypoints fixed to the ground-truth. So it can Control the bird’s position using keypoint coordinates.
 
-![result2](../../../../img/Learning What and Where to Draw4.jpg) 
+![result2](../../../img/Learning What and Where to Draw4.jpg) 
 
 - It shows generating both bird keypoints and images from text alone.
 
-![result3](../../../../img/Learning What and Where to Draw5.jpg) 
+![result3](../../../img/Learning What and Where to Draw5.jpg) 
 
 It is valid by the above demonstration and further comparison with the previous model(GAN-INT-CLS).
 
 On MHP dataset the expected results were not obtained.
 
-![result4](../../../../img/Learning What and Where to Draw6.jpg) 
+![result4](../../../img/Learning What and Where to Draw6.jpg) 

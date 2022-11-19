@@ -10,7 +10,7 @@ It make extensive use of text-mined knowledge to select the best SVO triple and 
 
 ### 3.What are important parts of technique and methods?
 
-![model](../../../img/Generating Natural-Language Video Descriptions Using Text-Mined Knowledge.jpg) 
+![model](../../img/Generating Natural-Language Video Descriptions Using Text-Mined Knowledge.jpg) 
 
 
 Key point is to have two stage and the function which called "verb expansion".

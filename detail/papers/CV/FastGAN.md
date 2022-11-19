@@ -1,4 +1,4 @@
-## TOWARDS FASTER AND STABILIZED GAN TRAINING FOR HIGH-FIDELITY FEW-SHOT IMAGE SYNTHESIS
+## Towards Faster and Stabilized Gan training for High-fidelity Few-shot Image Synthesis
 
 ### 1.What is this paper about?
 

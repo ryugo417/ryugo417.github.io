@@ -10,7 +10,7 @@
 
 ### 3.What are important parts of technique and methods?
 
-![model](../../../img/Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models.jpg) 
+![model](../../img/Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models.jpg) 
 
 
 
