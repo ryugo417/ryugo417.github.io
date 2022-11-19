@@ -14,37 +14,40 @@
 
 ### Image Manipulation
 #### GAN-Based
-* [ManiGAN: Text-Guided Image Manipulation](detail/papers/image-manipulation/ManiGAN.md)
-* [Segmentation-Aware Text-Guided Image Manipulation](detail/papers/image-manipulation/Segmentation-Aware_Text-Guided_Image_Manipulation.md)
-* [Semantic Image Synthesis via Adversarial Learning](detail/papers/image-manipulation/SIS-GAN.md)
-* [Text-Adaptive Generative Adversarial Networks: Manipulating Images with Natural Language](detail/papers/image-manipulation/TA-GAN.md)
+* [ManiGAN: Text-Guided Image Manipulation](detail/papers/image-manipulation/GAN-based/ManiGAN.md)
+* [Segmentation-Aware Text-Guided Image Manipulation](detail/papers/image-manipulation/GAN-based/Segmentation-Aware_Text-Guided_Image_Manipulation.md)
+* [Semantic Image Synthesis via Adversarial Learning](detail/papers/image-manipulation/GAN-based/SIS-GAN.md)
+* [Text-Adaptive Generative Adversarial Networks: Manipulating Images with Natural Language](detail/papers/image-manipulation/GAN-based/TA-GAN.md)
 
 #### Diffusion model-Based
-* [DiffusionCLIP: Text-Guided Diffusion Models for Robust Image Manipulation](detail/papers/image-manipulation/DiffusionCLIP.md)
+* [DiffusionCLIP: Text-Guided Diffusion Models for Robust Image Manipulation](detail/papers/image-manipulation/diffusion-based/DiffusionCLIP.md)
+
+#### VAE-Based
+* [ManiTrans: Entity-Level Text-Guided Image Manipulation via Token-wise Semantic Alignment and Generation](detail/papers/image-manipulation/VAE-based/ManiTrans.md)
 
 ### Text to Image
-* [Generative Adversarial Text to Image Synthesis](/detail/papers/text-to-image/GAN-INT.md)
-* [Learning What and Where to Draw](/detail/papers/text-to-image/GANWN.md)
-* [StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks](/detail/papers/text-to-image/StackGAN-v1.md)
-* [AttnGAN: Fine-Grained Text to Image Generation with Attentional Generative Adversarial Networks](/detail/papers/text-to-image/AttenGAN.md)
-* [Semi-supervised FusedGAN for Conditional Image Generations](/detail/papers/text-to-image/FusedGAN.md)
-* [Controllable Text-to-Image Generation](/detail/papers/text-to-image/ControlGAN.md)
-* [TAC-GAN – Text Conditioned Auxiliary Classifier Generative Adversarial Network](/detail/papers/text-to-image/TACGAN.md)
-* [Cross-Modal Contrastive Learning for Text-to-Image Generation](/detail/papers/text-to-image/XMC-GAN.md)
-* [DM-GAN: Dynamic Memory Generative Adversarial Networks for Text-to-Image Synthesis](/detail/papers/text-to-image/DM-GAN.md)
-* [MirrorGAN: Learning Text-to-image Generation by Redescription](/detail/papers/text-to-image/MirrorGAN.md)
-* [Semantics Disentangling for Text-to-Image Generation](/detail/papers/text-to-image/SD-GAN.md)
-* [TediGAN: Text-Guided Diverse Face Image Generation and Manipulation](/detail/papers/text-to-image/TediGAN.md)
-* [TIME: Text and Image Mutual-Translation Adversarial Networks](/detail/papers/text-to-image/TIME.md)
-* [Cycle-Consistent Inverse GAN for Text-to-Image Synthesis](/detail/papers/text-to-image/CI-GAN.md)
-* [Interactive Image Generation with Natural-Language Feedback](/detail/papers/text-to-image/TiGAN.md)
+* [Generative Adversarial Text to Image Synthesis](/detail/papers/text-to-image/GAN-based/GAN-INT.md)
+* [Learning What and Where to Draw](/detail/papers/text-to-image/GAN-based/GANWN.md)
+* [StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks](/detail/papers/text-to-image/GAN-based/StackGAN-v1.md)
+* [AttnGAN: Fine-Grained Text to Image Generation with Attentional Generative Adversarial Networks](/detail/papers/text-to-image/GAN-based/AttenGAN.md)
+* [Semi-supervised FusedGAN for Conditional Image Generations](/detail/papers/text-to-image/GAN-based/FusedGAN.md)
+* [Controllable Text-to-Image Generation](/detail/papers/text-to-image/GAN-based/ControlGAN.md)
+* [TAC-GAN – Text Conditioned Auxiliary Classifier Generative Adversarial Network](/detail/papers/text-to-image/GAN-based/TACGAN.md)
+* [Cross-Modal Contrastive Learning for Text-to-Image Generation](/detail/papers/text-to-image/GAN-based/XMC-GAN.md)
+* [DM-GAN: Dynamic Memory Generative Adversarial Networks for Text-to-Image Synthesis](/detail/papers/text-to-image/GAN-based/DM-GAN.md)
+* [MirrorGAN: Learning Text-to-image Generation by Redescription](/detail/papers/text-to-image/GAN-based/MirrorGAN.md)
+* [Semantics Disentangling for Text-to-Image Generation](/detail/papers/text-to-image/GAN-based/SD-GAN.md)
+* [TediGAN: Text-Guided Diverse Face Image Generation and Manipulation](/detail/papers/text-to-image/GAN-based/TediGAN.md)
+* [TIME: Text and Image Mutual-Translation Adversarial Networks](/detail/papers/text-to-image/GAN-based/TIME.md)
+* [Cycle-Consistent Inverse GAN for Text-to-Image Synthesis](/detail/papers/text-to-image/GAN-based/CI-GAN.md)
+* [Interactive Image Generation with Natural-Language Feedback](/detail/papers/text-to-image/GAN-based/TiGAN.md)
 
 ### Text to Face
 * [Multi-caption Text-to-Face Synthesis: Dataset and Algorithm](/detail/papers/text-to-face/SEA-T2F.md)
 
 ### CV
 * [Stochastic Image-to-Video Synthesis using cINNs](/detail/papers/CV/Stochastic_Image-to-Video_Synthesis_using_cINNs.md)
-* [TOWARDS FASTER AND STABILIZED GAN TRAINING FOR HIGH-FIDELITY FEW-SHOT IMAGE SYNTHESIS](/detail/papers/CV/TOWARDS_FASTER_AND_STABILIZED_GAN_TRAINING_FOR_HIGH-FIDELITY_FEW-SHOT_IMAGE_SYNTHESIS.md)
+* [Towards Faster and Stabilized Gan training for High-fidelity Few-shot Image Synthesis](/detail/papers/CV/FastGAN.md)
 
 
 
