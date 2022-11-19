@@ -21,6 +21,8 @@
 
 #### Diffusion model-Based
 * [DiffusionCLIP: Text-Guided Diffusion Models for Robust Image Manipulation](detail/papers/image-manipulation/diffusion-based/DiffusionCLIP.md)
+* [InstructPix2Pix: Learning to Follow Image Editing Instructions](detail/papers/image-manipulation/diffusion-based/InstructPix2Pix.md)
+
 
 #### VAE-Based
 * [ManiTrans: Entity-Level Text-Guided Image Manipulation via Token-wise Semantic Alignment and Generation](detail/papers/image-manipulation/VAE-based/ManiTrans.md)
