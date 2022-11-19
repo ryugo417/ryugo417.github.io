@@ -2,8 +2,8 @@
 
 ### 1.What is this paper about?
 
-pre-trainedのGPT-3とStable Diffusionの事前知識を用いて、生成されたデータセットを用いて、
-学習させ、zero-shotで、text instruct-based image manipulationモデルである。
+pre-trainedのGPT-3とStable Diffusionの事前知識を用いて、生成されたデータセットを生成、
+そのデータセットを使用し学習させ、zero-shotで、text instruct-based image manipulationができるモデルである。
 
 
 ### 2.What’s better than previous paper?
