@@ -42,6 +42,7 @@ CUB datasetを使用して、既存研究(MC-GAN, MC-stackGAN)と定性的結果
 datasetをどのようにして学習したかなど、書いてない部分が多い。
 
 さらに、multi-GANを使っている意味がない。
+![model](../../../img/BGNet_multi.png) 
 
 定性的結果だけでいいのか？
 
