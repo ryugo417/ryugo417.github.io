@@ -12,6 +12,11 @@
 * [Transform and Tell: Entity-Aware News Image Captioning](/detail/papers/image-caption/Tran_Transform_and_Tell_Entity-Aware_News_Image_Captioning_CVPR_2020_paper.md)
 * [Context-Aware Group Captioning via Self-Attention and Contrastive Features](/detail/papers/image-caption/Context-Aware_Group_Captioning_via_Self-Attention_and_Contrastive_Features.md)
 
+### Back+text2Image
+#### GAN-Based
+*[A Background-induced Generative Network with Multi-level Discriminator for Text-to-Image Generation](detail/papers/back_text2image/GAN-based/BGNet.md)
+
+
 ### Image Manipulation
 #### GAN-Based
 * [ManiGAN: Text-Guided Image Manipulation](detail/papers/image-manipulation/GAN-based/ManiGAN.md)
