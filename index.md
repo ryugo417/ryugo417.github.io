@@ -14,7 +14,7 @@
 
 ### Back+text2Image
 #### GAN-Based
-*[A Background-induced Generative Network with Multi-level Discriminator for Text-to-Image Generation](detail/papers/back_text2image/GAN-based/BGNet.md)
+* [A Background-induced Generative Network with Multi-level Discriminator for Text-to-Image Generation](detail/papers/back_text2image/GAN-based/BGNet.md)
 
 
 ### Image Manipulation
