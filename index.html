@@ -4,37 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ryugo Morita - Personal Homepage</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0 auto;
-            max-width: 900px;
-            padding: 20px;
-        }
-        nav a {
-            margin-right: 15px;
-            text-decoration: none;
-            color: #333;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        img.profile-img {
-            border-radius: 50%;
-            max-width: 200px;
-        }
-        section {
-            margin-bottom: 40px;
-        }
-        h2 {
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 5px;
-        }
-        ul {
-            padding-left: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -46,20 +16,23 @@
 </nav>
 
 <section id="about">
-    <h1>Ryugo Morita</h1>
-    <img src="meme.png" alt="Profile Image" class="profile-img">
-
-    <p>
-        I am a second-year M.S. student in the Graduate School of Applied Informatics at Hosei University. 
-        Currently, I belong to the iMedia Lab led by Assoc. Prof. Jinjia Zhou, where I conduct research on layer-wise image generation and compression in generative models such as diffusion models and GANs. 
-        In addition to my work in computer vision, I also engage in HCI research focusing on AI-driven education, exploring how generative AI can enhance learning experiences and cognitive augmentation.
-    </p>
-    <p>
-        <a href="https://scholar.google.com/citations?user=MqJvzUsAAAAJ&hl=ja">Google Scholar</a> | 
-        <a href="https://x.com/Oguryu417">Twitter</a> | 
-        <a href="https://github.com/ryugo417">Github</a> | 
-        <a href="https://www.linkedin.com/in/%E7%AB%9C%E6%A2%A7-%E5%AE%88%E7%94%B0-3391081a6/">LinkedIn</a>
-    </p>
+    <div class="profile-container">
+        <img src="meme.png" alt="Profile Image" class="profile-img">
+        <div class="intro-text">
+            <h1>Ryugo Morita</h1>
+            <p>
+                I am a second-year M.S. student in the Graduate School of Applied Informatics at Hosei University. 
+                Currently, I belong to the iMedia Lab led by Assoc. Prof. Jinjia Zhou, where I conduct research on layer-wise image generation and compression in generative models such as diffusion models and GANs. 
+                In addition to my work in computer vision, I also engage in HCI research focusing on AI-driven education, exploring how generative AI can enhance learning experiences and cognitive augmentation.
+            </p>
+            <p>
+                <a href="https://scholar.google.com/citations?user=MqJvzUsAAAAJ&hl=ja">Google Scholar</a> | 
+                <a href="https://x.com/Oguryu417">Twitter</a> | 
+                <a href="https://github.com/ryugo417">Github</a> | 
+                <a href="https://www.linkedin.com/in/%E7%AB%9C%E6%A2%A7-%E5%AE%88%E7%94%B0-3391081a6/">LinkedIn</a>
+            </p>
+        </div>
+    </div>
 </section>
 
 <section id="research">
