@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TKG-DM: Training-free Chroma Key Content Generation Diffusion Model</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- MathJax -->
+    <script>
+      MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }, svg: { fontCache: 'global' } };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>TKG-DM: Training-free Chroma Key Content Generation Diffusion Model</h1>
+            <p class="authors">
+                <u>Ryugo Morita</u><sup>1,2</sup>, Stanislav Frolov<sup>2</sup>, Brian Bernhard Moser<sup>2</sup>, Takahiro Shirakawa, Ko Watanabe<sup>2</sup>,<br class="small-break">
+                Andreas Dengel<sup>2</sup>, Jinjia Zhou<sup>1</sup>
+            </p>
+            <p class="affiliations">
+                <sup>1</sup> Hosei University, Tokyo, Japan | 
+                <sup>2</sup> RPTU Kaiserslautern-Landau & DFKI GmbH, Germany
+            </p>
+            <p class="conference"><strong>CVPR 2025 Highlights</strong></p>
+            <div class="links">
+                <a href="https://arxiv.org/abs/2411.15580">[Paper]</a> 
+                <a href="https://github.com/ryugo417/TKG-DM">[Code]</a> 
+            </div>
+        </header>
+
+        <section class="abstract">
+            <h2>Abstract</h2>
+            <p>
+                We introduce TKG-DM, a training-free diffusion model that efficiently generates images with foreground objects placed over a uniform chroma key background. By optimizing initial random noise through a novel "Channel Mean Shift" method, our model precisely controls background colors without requiring any fine-tuning or additional datasets. Experiments show TKG-DM outperforms existing methods in quality, flexibility, and ease-of-use, while also extending naturally to tasks such as consistency models and text-to-video generation.
+            </p>
+        </section>
+
+        <section class="overview">
+            <h2>Overview of TKG-DM</h2>
+            <img src="./img/model.svg" alt="TKG-DM model overview">
+            <p>
+                TKG-DM manipulates initial Gaussian noise $\mathbf{z}_T$ through channel mean shift $F_c$, generating "init color noise" $\mathbf{z}_T^*$. Using a Gaussian mask, we blend this with original noise to guide Stable Diffusion, generating chroma key images aligned with text prompts without fine-tuning.
+            </p>
+        </section>
+
+        <section class="methodology">
+            <h2>Key Methodology</h2>
+
+            <h3>Channel Mean Shift</h3>
+            <img src="./img/channel.svg" alt="Channel Mean Shift">
+            <p>
+                Adjusting each channel's mean in initial noise allows precise control over background colors, enabling targeted chroma key generation.
+            </p>
+
+            <h3>Init Noise Selection</h3>
+            <p>
+                A Gaussian mask smoothly blends original noise and shifted noise, effectively separating foreground from background regions.
+            </p>
+        </section>
+
+        <section id="results">
+            <h2>Experimental Results</h2>
+
+            <section class="qualitative">
+                <h3>Qualitative Results (SDXL)</h3>
+                <img src="./img/qualitative_xl.svg" alt="Qualitative Comparison">
+                <p class="caption">
+                    Our model consistently generates precise chroma key backgrounds and high-quality foregrounds without relying on prompt engineering or fine-tuning.
+                </p>
+            </section>
+
+            <section class="quantitative">
+                <h3>Quantitative Results (SDXL)</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Method</th>
+                            <th>FID ↓</th>
+                            <th>m-FID ↓</th>
+                            <th>CLIP-I ↑</th>
+                            <th>CLIP-S ↑</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>DeepFloyd (GBP)</td><td>31.57</td><td>20.31</td><td>0.781</td><td>0.270</td></tr>
+                        <tr><td>SDXL (GBP)</td><td>45.32</td><td>39.17</td><td>0.759</td><td>0.272</td></tr>
+                        <tr><td>LayerDiffuse <strong>(Fine-tuned)</strong></td><td><strong>29.34</strong></td><td><strong>29.82</strong></td><td><strong>0.778</strong></td><td><strong>0.276</strong></td></tr>
+                        <tr class="highlight"><td><strong>Ours (Training-free)</strong></td><td><u>41.81</u></td><td><u>31.43</u></td><td><u>0.763</u></td><td><u>0.273</u></td></tr>
+                    </tbody>
+                </table>
+                <p class="caption">
+                    Bold: best results; underline: second-best results.
+                </p>
+            </section>
+        </section>
+    <section class="applications">
+        <h2>Application to ControlNet</h2>
+
+        <section class="qualitative">
+            <h3>Qualitative Results (ControlNet)</h3>
+            <img src="./img/controlnet.svg" alt="ControlNet Qualitative Comparison">
+            <p class="caption">
+                Comparison of ControlNet methods. TKG-DM generates cleaner foregrounds with uniform chroma key backgrounds compared to existing methods using Green Background Prompt (GBP).
+            </p>
+        </section>
+
+        <section class="quantitative">
+            <h3>Quantitative Results (ControlNet)</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Method</th>
+                        <th>FID ↓</th>
+                        <th>m-FID ↓</th>
+                        <th>CLIP-I ↑</th>
+                        <th>CLIP-S ↑</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>SDXL (GBP)</td>
+                        <td>22.04</td>
+                        <td>18.62</td>
+                        <td>0.819</td>
+                        <td>0.279</td>
+                    </tr>
+                    <tr class="highlight">
+                        <td><strong>Ours (Training-free)</strong></td>
+                        <td><strong>17.09</strong></td>
+                        <td><strong>17.22</strong></td>
+                        <td><strong>0.834</strong></td>
+                        <td><strong>0.284</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="caption">
+                Bold indicates the best performance.
+            </p>
+        </section>
+        <h2>Applications to Other Tasks</h2>
+
+        <section class="text-to-video">
+            <h3>Text-to-Video Generation</h3>
+            <p class="caption">
+                Our model successfully extends to text-to-video generation by applying chroma key backgrounds consistently across video frames, enabling easy background replacement and editing workflows.
+            </p>
+        </section>
+
+        <section class="consistency-model">
+            <h3>Consistency Models</h3>
+            <p class="caption">
+                TKG-DM seamlessly integrates with Consistency Models, allowing rapid generation of high-quality chroma key images in fewer steps, significantly enhancing efficiency while maintaining output quality.
+            </p>
+        </section>
+    </section>
+
+    <section class="citation">
+        <h2>Citation</h2>
+        <pre><code>@article{morita2024tkg,
+    title={TKG-DM: Training-free Chroma Key Content Generation Diffusion Model},
+    author={Morita, Ryugo and Frolov, Stanislav and Moser, Brian Bernhard and Shirakawa, Takahiro and Watanabe, Ko and Dengel, Andreas and Zhou, Jinjia},
+    journal={arXiv preprint arXiv:2411.15580},
+    year={2024}
+    }</code></pre>
+    </section>
+        </section>
+
+        <footer>
+            <p>For more information, please visit our <a href="
+
+    </div>
+</body>
+</html>
