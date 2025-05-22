@@ -74,23 +74,25 @@
 
             <section class="quantitative">
                 <h3>Quantitative Results (SDXL)</h3>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Method</th>
-                            <th>FID ↓</th>
-                            <th>m-FID ↓</th>
-                            <th>CLIP-I ↑</th>
-                            <th>CLIP-S ↑</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr><td>DeepFloyd (GBP)</td><td>31.57</td><td>20.31</td><td>0.781</td><td>0.270</td></tr>
-                        <tr><td>SDXL (GBP)</td><td>45.32</td><td>39.17</td><td>0.759</td><td>0.272</td></tr>
-                        <tr><td>LayerDiffuse <strong>(Fine-tuned)</strong></td><td><strong>29.34</strong></td><td><strong>29.82</strong></td><td><strong>0.778</strong></td><td><strong>0.276</strong></td></tr>
-                        <tr class="highlight"><td><strong>Ours (Training-free)</strong></td><td><u>41.81</u></td><td><u>31.43</u></td><td><u>0.763</u></td><td><u>0.273</u></td></tr>
-                    </tbody>
-                </table>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Method</th>
+                                <th>FID ↓</th>
+                                <th>m-FID ↓</th>
+                                <th>CLIP-I ↑</th>
+                                <th>CLIP-S ↑</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>DeepFloyd (GBP)</td><td>31.57</td><td>20.31</td><td>0.781</td><td>0.270</td></tr>
+                            <tr><td>SDXL (GBP)</td><td>45.32</td><td>39.17</td><td>0.759</td><td>0.272</td></tr>
+                            <tr><td>LayerDiffuse <strong>(Fine-tuned)</strong></td><td><strong>29.34</strong></td><td><strong>29.82</strong></td><td><strong>0.778</strong></td><td><strong>0.276</strong></td></tr>
+                            <tr class="highlight"><td><strong>Ours (Training-free)</strong></td><td><u>41.81</u></td><td><u>31.43</u></td><td><u>0.763</u></td><td><u>0.273</u></td></tr>
+                        </tbody>
+                    </table>
+                </div>
                 <p class="caption">
                     Bold: best results; underline: second-best results.
                 </p>
@@ -109,6 +111,7 @@
 
         <section class="quantitative">
             <h3>Quantitative Results (ControlNet)</h3>
+            <div class="table-container">
             <table>
                 <thead>
                     <tr>
@@ -135,6 +138,7 @@
                         <td><strong>0.284</strong></td>
                     </tr>
                 </tbody>
+            </div>
             </table>
             <p class="caption">
                 Bold indicates the best performance.
@@ -166,11 +170,6 @@
     year={2024}
     }</code></pre>
     </section>
-        </section>
-
-        <footer>
-            <p>For more information, please visit our <a href="
-
     </div>
 </body>
 </html>

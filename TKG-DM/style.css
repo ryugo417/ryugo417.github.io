@@ -69,3 +69,9 @@ section:has(> h2) {
 section:has(> h2) > h2 {
     margin-top: 0; /* h2の上部マージンをなくす */
 }
+
+.table-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* スムーズなスクロール (iOS向け) */
+    margin: 15px 0;
+}
