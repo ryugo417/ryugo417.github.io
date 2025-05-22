@@ -3,18 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ryugo Morita - Publications</title>
+    <title>Ryugo Morita - Personal Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0 auto;
+            max-width: 800px;
+            padding: 20px;
+        }
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        img.profile-img {
+            border-radius: 50%;
+            max-width: 200px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+    </style>
 </head>
 <body>
 
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#publications">Publications</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
     <h1>Ryugo Morita</h1>
+    <img src="tamago.png" alt="Profile Image" class="profile-img">
+    <p>
+      I am a researcher specializing in generative AI, image captioning, and diffusion models.
+      My interests include developing methods for natural language-guided image generation and manipulation.
+    </p>
+</section>
 
-    <h2>Publications</h2>
-    <div id="scholar-publications">
-        Loading publications...
-    </div>
+<section id="publications">
+    <h2>Selected Publications</h2>
+    <ul>
+        <li><strong>Interactive Image Manipulation with Complex Text Instructions</strong>, Ryugo Morita, Zhiqiang Zhang, Man M. Ho, Jinjia Zhou. <em>WACV 2023</em>.</li>
+        <li><strong>Your Paper Title 2</strong>, Authors, <em>Conference/Journal Year</em>.</li>
+        <li><strong>Your Paper Title 3</strong>, Authors, <em>Conference/Journal Year</em>.</li>
+        <!-- ここに手動で論文を追加 -->
+    </ul>
+</section>
 
-    <script src="publications.js"></script>
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:your.email@domain.com">your.email@domain.com</a></p>
+    <p>
+        <a href="https://github.com/yourgithub">GitHub</a> | 
+        <a href="https://scholar.google.com/citations?user=MqJvzUsAAAAJ&hl=ja">Google Scholar</a>
+    </p>
+</section>
 
 </body>
 </html>
